@@ -12,13 +12,13 @@ on:
 jobs:
   analizar:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: Checkout repositorio 2015
         uses: actions/checkout@v4
         with:
           path: '2015'
-      
+
       - name: Checkout repositorio 2016 (opcional)
         if: ${{ github.event.inputs.incluir_repos_externos == 'true' }}
         uses: actions/checkout@v4
@@ -27,7 +27,7 @@ jobs:
           repository: u2008113935/2016
           path: '2016'
           token: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Checkout repositorio 2017 (opcional)
         if: ${{ github.event.inputs.incluir_repos_externos == 'true' }}
         uses: actions/checkout@v4
@@ -36,7 +36,7 @@ jobs:
           repository: u2008113935/2017
           path: '2017'
           token: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Checkout repositorio 2018 (opcional)
         if: ${{ github.event.inputs.incluir_repos_externos == 'true' }}
         uses: actions/checkout@v4
@@ -45,59 +45,59 @@ jobs:
           repository: u2008113935/2018
           path: '2018'
           token: ${{ secrets.GITHUB_TOKEN }}
-      
+
       - name: Configurar Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-      
+
       - name: Ejecutar análisis
         id: analisis
         run: |
           cd 2015
           python .github/scripts/analizar_requerimientos_multi.py
-          
+
           # Leer resumen para el GitHub Actions summary
           echo "## 📊 Resumen del Análisis" >> $GITHUB_STEP_SUMMARY
           echo "" >> $GITHUB_STEP_SUMMARY
-          
+
           if [ -f reportes/REPORTE_EJECUTIVO.md ]; then
             # Extraer métricas clave del reporte
             echo "### Métricas Principales" >> $GITHUB_STEP_SUMMARY
             grep -A 5 "Métricas Clave" reportes/REPORTE_EJECUTIVO.md | grep "^-" >> $GITHUB_STEP_SUMMARY || true
             echo "" >> $GITHUB_STEP_SUMMARY
-            
+
             echo "### Top 5 Categorías" >> $GITHUB_STEP_SUMMARY
             echo "" >> $GITHUB_STEP_SUMMARY
             head -n 8 reportes/REPORTE_EJECUTIVO.md | tail -n 5 >> $GITHUB_STEP_SUMMARY || true
           fi
-          
+
           echo "" >> $GITHUB_STEP_SUMMARY
           echo "✅ Reportes generados exitosamente en el directorio \`reportes/\`" >> $GITHUB_STEP_SUMMARY
-      
+
       - name: Subir reportes como artifacts
         uses: actions/upload-artifact@v3
         with:
           name: reportes-analisis-multirepo
           path: 2015/reportes/
           retention-days: 90
-      
+
       - name: Commit reportes (opcional)
         continue-on-error: true
         run: |
           cd 2015
           git config user.name "GitHub Actions Bot"
           git config user.email "actions@github.com"
-          
+
           # Añadir reportes
           git add reportes/
-          
+
           # Commit si hay cambios
           git diff --staged --quiet || git commit -m "📊 Actualizar reportes de análisis multi-repositorio [skip ci]"
-          
+
           # Intentar push (puede fallar si no hay permisos)
           git push || echo "No se pudo hacer push de los reportes (esto es opcional)"
-      
+
       - name: Mostrar resumen
         run: |
           cd 2015
