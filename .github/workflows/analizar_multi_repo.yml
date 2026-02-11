@@ -12,6 +12,8 @@ on:
 jobs:
   analizar:
     runs-on: ubuntu-latest
+    permissions:
+      contents: read
 
     steps:
       - name: Checkout repositorio 2015
