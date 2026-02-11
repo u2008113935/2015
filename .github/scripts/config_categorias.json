@@ -1,0 +1,70 @@
+{
+  "categorias": {
+    "Cartera": {
+      "keywords": ["cart", "cartera"],
+      "descripcion": "Gestión de carteras de créditos",
+      "color": "#FF6B6B"
+    },
+    "Expedientes": {
+      "keywords": ["exp", "expediente"],
+      "descripcion": "Gestión de expedientes",
+      "color": "#4ECDC4"
+    },
+    "Créditos": {
+      "keywords": ["cred", "credit", "cts", "desemb", "hipot"],
+      "descripcion": "Gestión y análisis de créditos",
+      "color": "#45B7D1"
+    },
+    "Garantías": {
+      "keywords": ["gar", "garantia", "prenda", "prendario"],
+      "descripcion": "Gestión de garantías y prendas",
+      "color": "#96CEB4"
+    },
+    "Morosidad": {
+      "keywords": ["moro", "morosidad", "vencido", "tramo"],
+      "descripcion": "Análisis de morosidad",
+      "color": "#FFEAA7"
+    },
+    "Reportes SBS": {
+      "keywords": ["sbs", "sentinel", "lemur", "anexo"],
+      "descripcion": "Reportes para SBS y entidades regulatorias",
+      "color": "#DFE6E9"
+    },
+    "Clientes": {
+      "keywords": ["cli", "cliente", "desertor", "compartido"],
+      "descripcion": "Gestión y análisis de clientes",
+      "color": "#74B9FF"
+    },
+    "RCC": {
+      "keywords": ["rcc", "central", "riesgo"],
+      "descripcion": "Central de Riesgos",
+      "color": "#A29BFE"
+    },
+    "Análisis Geográfico": {
+      "keywords": ["distrito", "provincia", "zona", "agencia", "selva", "norte", "sur"],
+      "descripcion": "Análisis por ubicación geográfica",
+      "color": "#FD79A8"
+    },
+    "Promotor Inmobiliario": {
+      "keywords": ["promotor", "inmobi", "credicasa"],
+      "descripcion": "Créditos de promotor inmobiliario",
+      "color": "#FDCB6E"
+    },
+    "Análisis Financiero": {
+      "keywords": ["eeff", "financier", "economico", "activo"],
+      "descripcion": "Estados financieros y análisis económico",
+      "color": "#6C5CE7"
+    },
+    "Otros": {
+      "keywords": [],
+      "descripcion": "Otras categorías no clasificadas",
+      "color": "#B2BEC3"
+    }
+  },
+  "repositorios": [
+    "u2008113935/2015",
+    "u2008113935/2016",
+    "u2008113935/2017",
+    "u2008113935/2018"
+  ]
+}
