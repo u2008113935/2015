@@ -1,0 +1,100 @@
+{
+  "repositorio": "u2008113935/2015",
+  "meses": {
+    "Marzo2015": 2,
+    "Abril2015": 11,
+    "Mayo2015": 33,
+    "Junio2015": 16,
+    "Julio2015": 26,
+    "Agosto2015": 26,
+    "Septiembre2015": 23,
+    "Octubre2015": 18,
+    "Noviembre2015": 22,
+    "Diciembre2015": 23
+  },
+  "categorias_requerimiento": {
+    "Morosidad": {
+      "tablas": ["KPYHSALCARANA", "KPYHSALCARTOT", "SALCARANA"],
+      "palabras_clave": ["morosidad", "vencido", "tramo", "dias_atraso", "atraso", "nSalVen01_07", "nSalVen08_15", "nSalVen16_30"],
+      "descripcion": "Scripts relacionados con análisis de morosidad y cartera vencida"
+    },
+    "Clientes": {
+      "tablas": ["CLIMCLIENTES", "CLIDEXPEDIENTE"],
+      "palabras_clave": ["cliente", "desertor", "nuevo", "exclusivo", "compartido"],
+      "descripcion": "Scripts de gestión y análisis de clientes"
+    },
+    "Desembolsos": {
+      "tablas": ["KPYMCRECONVEN", "KPYDDESCRECON"],
+      "palabras_clave": ["desembolso", "dFecDesCre", "nMonCapDes"],
+      "descripcion": "Scripts de análisis de desembolsos"
+    },
+    "Cartera": {
+      "tablas": ["URIHHISCARTERA", "KPYHSALCARANA"],
+      "palabras_clave": ["cartera", "saldo", "capital"],
+      "descripcion": "Scripts de análisis de cartera"
+    },
+    "Reportes SBS": {
+      "tablas": ["URIRCCMAE", "URIRCCSAL", "CRICMACHYO"],
+      "palabras_clave": ["sbs", "sentinel", "lemur", "rcc", "superintendencia"],
+      "descripcion": "Reportes regulatorios para la SBS"
+    },
+    "Garantías": {
+      "tablas": ["KPYDGARLINCRE", "KPYDAMPGARCRE", "KPRMCREPRENDA"],
+      "palabras_clave": ["garantia", "prenda", "adjudic", "kilate"],
+      "descripcion": "Scripts de gestión de garantías"
+    },
+    "Expedientes": {
+      "tablas": ["CLIDEXPEDIENTE"],
+      "palabras_clave": ["expediente", "cCodExpCli"],
+      "descripcion": "Scripts de gestión de expedientes"
+    },
+    "Gerencia/Subgerencia": {
+      "tablas": [],
+      "palabras_clave": ["gerencia", "subgerencia", "negocio", "estrategico", "direccion"],
+      "descripcion": "Reportes gerenciales y estratégicos"
+    },
+    "Otros": {
+      "tablas": [],
+      "palabras_clave": [],
+      "descripcion": "Scripts que no caen en categorías anteriores"
+    }
+  },
+  "tipos_credito": {
+    "Consumo": {
+      "palabras_clave": ["CONSUMO", "CREDIWATER", "UNICUOTA", "VEHICULAR"],
+      "descripcion": "Créditos de consumo"
+    },
+    "Microempresa": {
+      "palabras_clave": ["MICROEMPRESA", "PYME", "EMPRESA", "EMPRESARIAL"],
+      "descripcion": "Créditos a microempresas"
+    },
+    "Hipotecario": {
+      "palabras_clave": ["HIPOTECARIO", "CREDICASA", "PROMOTOR", "INMOBILIARIO", "VIVIENDA", "HABITACIONAL"],
+      "descripcion": "Créditos hipotecarios"
+    },
+    "No Minorista": {
+      "palabras_clave": ["NO MINORISTA", "CORPORATIVO", "NOMINORISTA"],
+      "descripcion": "Créditos corporativos"
+    },
+    "Prendario": {
+      "palabras_clave": ["PRENDA", "CREDIJOYAS", "PIGNORATICIO", "KILATE"],
+      "descripcion": "Créditos prendarios"
+    },
+    "CTS": {
+      "palabras_clave": ["CTS", "COMPENSACION"],
+      "descripcion": "Créditos contra CTS"
+    },
+    "Múltiple/General": {
+      "palabras_clave": [],
+      "descripcion": "Scripts que analizan múltiples tipos de crédito"
+    }
+  },
+  "tablas_sistema": [
+    "KPYHSALCARANA", "KPYHSALCARTOT", "CLIMCLIENTES", "CLIDEXPEDIENTE",
+    "KPYMCRECONVEN", "KPYDDESCRCON", "URIHHISCARTERA", "URIRCCMAE",
+    "URIRCCSAL", "CRICMACHYO", "KPYDGARLINCRE", "KPYDAMPGARCRE",
+    "KPRMCREPRENDA", "KPRDCTAADJ", "KPRADJUDITAS", "GENMCRECLI",
+    "KPYTSUBTIPCRE", "SIPMPERSONAL", "GENTOFICINAS", "GENTZONA",
+    "KPYMEXCCRE", "KPYDEXEPCRE", "KPYMSOLICITUD", "GENTMONEDA"
+  ]
+}

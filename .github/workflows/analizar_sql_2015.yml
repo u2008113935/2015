@@ -1,0 +1,54 @@
+name: Análisis Profundo Scripts SQL 2015
+
+on:
+  workflow_dispatch:
+  push:
+    paths:
+      - '**/*.sql'
+      - '.github/scripts/analizar_sql_2015.py'
+      - '.github/scripts/config_analisis.json'
+
+jobs:
+  analizar:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repositorio
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Ejecutar análisis profundo
+        run: python .github/scripts/analizar_sql_2015.py
+      
+      - name: Verificar reportes generados
+        run: |
+          echo "Verificando reportes generados..."
+          ls -lh reportes/
+          echo ""
+          echo "Contenido de reportes:"
+          for file in reportes/*; do
+            echo "📄 $file ($(wc -l < $file) líneas)"
+          done
+      
+      - name: Upload reportes como artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: reportes-analisis-2015
+          path: reportes/
+          retention-days: 90
+      
+      - name: Crear resumen del análisis
+        run: |
+          echo "## 📊 Resumen del Análisis SQL 2015" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Se han generado los siguientes reportes:" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          for file in reportes/*; do
+            echo "- \`$(basename $file)\`" >> $GITHUB_STEP_SUMMARY
+          done
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Los reportes están disponibles como artifacts de este workflow." >> $GITHUB_STEP_SUMMARY
