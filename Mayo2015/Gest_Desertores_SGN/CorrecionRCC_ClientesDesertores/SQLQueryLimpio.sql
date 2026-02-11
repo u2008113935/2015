@@ -1,0 +1,405 @@
+/*
+Select * 
+From SELVA_CENTRAL
+Where 
+ (RCC_FEB2015 = '1' OR RCC_FEB2015 = '2' OR RCC_FEB2015 = '3' OR RCC_FEB2015 = '4' OR RCC_FEB2015 IS NULL)
+ AND (RCC_ENE2015 = '1' OR RCC_ENE2015 = '2' OR RCC_ENE2015 = '3' OR RCC_ENE2015 = '4' OR RCC_ENE2015 IS NULL)
+ AND (RCC_DIC2014 = '1' OR RCC_DIC2014 = '2' OR RCC_DIC2014 = '3' OR RCC_DIC2014 = '4' OR RCC_DIC2014 IS NULL)
+ AND (RCC_NOV2014 = '1' OR RCC_NOV2014 = '2' OR RCC_NOV2014 = '3' OR RCC_NOV2014 = '4' OR RCC_NOV2014 IS NULL)
+ AND (RCC_OCT2014 = '1' OR RCC_OCT2014 = '2' OR RCC_OCT2014 = '3' OR RCC_OCT2014 = '4' OR RCC_OCT2014 IS NULL)
+ AND (RCC_SET2014 = '1' OR RCC_SET2014 = '2' OR RCC_SET2014 = '3' OR RCC_SET2014 = '4' OR RCC_SET2014 IS NULL)
+*/
+
+------SELVA CENTRAL---------
+/*
+SELECT * into #TMP_SC FROM (
+Select * 
+From SELVA_CENTRAL
+Where (RCC_FEB2015 = '0' OR RCC_FEB2015 is NULL) 
+		AND (RCC_ENE2015 = '0' OR RCC_ENE2015 is NULL) 
+		AND (RCC_DIC2014 = '0' OR RCC_DIC2014 is NULL)
+		AND (RCC_NOV2014 = '0' OR RCC_NOV2014 is NULL)
+		AND (RCC_OCT2014 = '0' OR RCC_OCT2014 is NULL)
+		AND (RCC_SET2014 = '0' OR RCC_SET2014 is NULL)
+-- (18268 row(s) affected)
+) AS tmp01
+
+--01
+Update #TMP_SC
+Set RCC_FEB2015 = 'NORMAL'	
+where RCC_FEB2015 = '0' 
+
+Update #TMP_SC
+set RCC_ENE2015	= 'NORMAL' 
+where RCC_ENE2015 = '0'
+
+Update #TMP_SC
+SET RCC_DIC2014	= 'NORMAL' 
+where RCC_DIC2014 = '0'
+
+Update #TMP_SC
+SET RCC_NOV2014 = 'NORMAL' 
+where RCC_NOV2014 = '0'
+
+Update #TMP_SC
+SET RCC_OCT2014 = 'NORMAL' 
+where RCC_OCT2014 = '0'
+
+Update #TMP_SC
+SET RCC_SET2014 = 'NORMAL' 
+where RCC_SET2014 = '0'
+
+--02
+Update #TMP_SC
+Set RCC_FEB2015 = 'SIN REGISTRO'	
+where RCC_FEB2015 IS NULL 
+
+Update #TMP_SC
+set RCC_ENE2015	= 'SIN REGISTRO' 
+where RCC_ENE2015 IS NULL 
+
+Update #TMP_SC
+SET RCC_DIC2014	= 'SIN REGISTRO'
+where RCC_DIC2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_NOV2014 = 'SIN REGISTRO'
+where RCC_NOV2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_OCT2014 = 'SIN REGISTRO'
+where RCC_OCT2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_SET2014 = 'SIN REGISTRO'
+where RCC_SET2014 IS NULL 
+
+Update #TMP_SC
+SET Direccion_Referencia_Cliente = ''
+where Direccion_Referencia_Cliente IS NULL 
+
+-- 03
+SELECT * FROM #TMP_SC
+--DROP TABLE #TMP_SC
+*/
+
+/*
+-------ZONA CENTRO----------------------
+SELECT * into #TMP_SC FROM (
+Select * 
+From ZONACENTRO
+Where (RCC_FEB2015 = '0' OR RCC_FEB2015 is NULL) 
+		AND (RCC_ENE2015 = '0' OR RCC_ENE2015 is NULL) 
+		AND (RCC_DIC2014 = '0' OR RCC_DIC2014 is NULL)
+		AND (RCC_NOV2014 = '0' OR RCC_NOV2014 is NULL)
+		AND (RCC_OCT2014 = '0' OR RCC_OCT2014 is NULL)
+		AND (RCC_SET2014 = '0' OR RCC_SET2014 is NULL)
+-- (19422 row(s) affected)
+) AS tmp01
+
+SELECT * FROM #TMP_SC
+
+--01
+Update #TMP_SC
+Set RCC_FEB2015 = 'NORMAL'	
+where RCC_FEB2015 = '0' 
+
+Update #TMP_SC
+set RCC_ENE2015	= 'NORMAL' 
+where RCC_ENE2015 = '0'
+
+Update #TMP_SC
+SET RCC_DIC2014	= 'NORMAL' 
+where RCC_DIC2014 = '0'
+
+Update #TMP_SC
+SET RCC_NOV2014 = 'NORMAL' 
+where RCC_NOV2014 = '0'
+
+Update #TMP_SC
+SET RCC_OCT2014 = 'NORMAL' 
+where RCC_OCT2014 = '0'
+
+Update #TMP_SC
+SET RCC_SET2014 = 'NORMAL' 
+where RCC_SET2014 = '0'
+
+--02
+Update #TMP_SC
+Set RCC_FEB2015 = 'SIN REGISTRO'	
+where RCC_FEB2015 IS NULL 
+
+Update #TMP_SC
+set RCC_ENE2015	= 'SIN REGISTRO' 
+where RCC_ENE2015 IS NULL 
+
+Update #TMP_SC
+SET RCC_DIC2014	= 'SIN REGISTRO'
+where RCC_DIC2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_NOV2014 = 'SIN REGISTRO'
+where RCC_NOV2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_OCT2014 = 'SIN REGISTRO'
+where RCC_OCT2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_SET2014 = 'SIN REGISTRO'
+where RCC_SET2014 IS NULL 
+
+Update #TMP_SC
+SET Direccion_Referencia_Cliente = ''
+where Direccion_Referencia_Cliente IS NULL 
+
+-- 03
+SELECT * FROM #TMP_SC
+--DROP TABLE #TMP_SC
+*/
+
+/*
+------ZONA LIMASUR-----------------------
+	SELECT * into #TMP_SC FROM (
+	Select * 
+	From LIMASURV01 --LIMASUR
+	Where (RCC_MAR2015 = '0' OR RCC_MAR2015 is NULL) 
+			AND (RCC_FEB2015 = '0' OR RCC_FEB2015 is NULL) 
+			AND (RCC_ENE2015 = '0' OR RCC_ENE2015 is NULL) 
+			AND (RCC_DIC2014 = '0' OR RCC_DIC2014 is NULL)
+			AND (RCC_NOV2014 = '0' OR RCC_NOV2014 is NULL)
+			AND (RCC_OCT2014 = '0' OR RCC_OCT2014 is NULL)
+			AND (RCC_SET2014 = '0' OR RCC_SET2014 is NULL)
+	-- (20,226 row(s) affected)
+	-- (16,911 row(s) affected)
+	) AS tmp01
+
+	SELECT * FROM #TMP_SC
+
+--01
+	Update #TMP_SC
+	Set RCC_MAR2015 = 'NORMAL'	
+	where RCC_MAR2015 = '0' 
+
+	Update #TMP_SC
+	Set RCC_FEB2015 = 'NORMAL'	
+	where RCC_FEB2015 = '0' 
+
+	Update #TMP_SC
+	set RCC_ENE2015	= 'NORMAL' 
+	where RCC_ENE2015 = '0'
+
+	Update #TMP_SC
+	SET RCC_DIC2014	= 'NORMAL' 
+	where RCC_DIC2014 = '0'
+
+	Update #TMP_SC
+	SET RCC_NOV2014 = 'NORMAL' 
+	where RCC_NOV2014 = '0'
+
+	Update #TMP_SC
+	SET RCC_OCT2014 = 'NORMAL' 
+	where RCC_OCT2014 = '0'
+
+	Update #TMP_SC
+	SET RCC_SET2014 = 'NORMAL' 
+	where RCC_SET2014 = '0'
+
+	--02
+	Update #TMP_SC
+	Set RCC_MAR2015 = 'SIN REGISTRO'	
+	where RCC_MAR2015 IS NULL
+
+	Update #TMP_SC
+	Set RCC_FEB2015 = 'SIN REGISTRO'	
+	where RCC_FEB2015 IS NULL 
+
+	Update #TMP_SC
+	set RCC_ENE2015	= 'SIN REGISTRO' 
+	where RCC_ENE2015 IS NULL 
+
+	Update #TMP_SC
+	SET RCC_DIC2014	= 'SIN REGISTRO'
+	where RCC_DIC2014 IS NULL 
+
+	Update #TMP_SC
+	SET RCC_NOV2014 = 'SIN REGISTRO'
+	where RCC_NOV2014 IS NULL 
+
+	Update #TMP_SC
+	SET RCC_OCT2014 = 'SIN REGISTRO'
+	where RCC_OCT2014 IS NULL 
+
+	Update #TMP_SC
+	SET RCC_SET2014 = 'SIN REGISTRO'
+	where RCC_SET2014 IS NULL 
+
+	Update #TMP_SC
+	SET Direccion_Referencia_Cliente = ''
+	where Direccion_Referencia_Cliente IS NULL 
+
+-- 03
+	SELECT * FROM #TMP_SC
+	--DROP TABLE #TMP_SC 
+*/
+
+/*
+------ZONA LIMANORTE-----------------------
+SELECT * into #TMP_SC FROM (
+Select * 
+From LIMANORTE
+Where (RCC_FEB2015 = '0' OR RCC_FEB2015 is NULL) 
+		AND (RCC_ENE2015 = '0' OR RCC_ENE2015 is NULL) 
+		AND (RCC_DIC2014 = '0' OR RCC_DIC2014 is NULL)
+		AND (RCC_NOV2014 = '0' OR RCC_NOV2014 is NULL)
+		AND (RCC_OCT2014 = '0' OR RCC_OCT2014 is NULL)
+		AND (RCC_SET2014 = '0' OR RCC_SET2014 is NULL)
+-- (11133 row(s) affected)
+) AS tmp01
+--
+
+SELECT * FROM #TMP_SC
+
+--01
+Update #TMP_SC
+Set RCC_FEB2015 = 'NORMAL'	
+where RCC_FEB2015 = '0' 
+
+Update #TMP_SC
+set RCC_ENE2015	= 'NORMAL' 
+where RCC_ENE2015 = '0'
+
+Update #TMP_SC
+SET RCC_DIC2014	= 'NORMAL' 
+where RCC_DIC2014 = '0'
+
+Update #TMP_SC
+SET RCC_NOV2014 = 'NORMAL' 
+where RCC_NOV2014 = '0'
+
+Update #TMP_SC
+SET RCC_OCT2014 = 'NORMAL' 
+where RCC_OCT2014 = '0'
+
+Update #TMP_SC
+SET RCC_SET2014 = 'NORMAL' 
+where RCC_SET2014 = '0'
+
+--02
+Update #TMP_SC
+Set RCC_FEB2015 = 'SIN REGISTRO'	
+where RCC_FEB2015 IS NULL 
+
+Update #TMP_SC
+set RCC_ENE2015	= 'SIN REGISTRO' 
+where RCC_ENE2015 IS NULL 
+
+Update #TMP_SC
+SET RCC_DIC2014	= 'SIN REGISTRO'
+where RCC_DIC2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_NOV2014 = 'SIN REGISTRO'
+where RCC_NOV2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_OCT2014 = 'SIN REGISTRO'
+where RCC_OCT2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_SET2014 = 'SIN REGISTRO'
+where RCC_SET2014 IS NULL 
+
+Update #TMP_SC
+SET Direccion_Referencia_Cliente = ''
+where Direccion_Referencia_Cliente IS NULL 
+
+-- 03
+SELECT * FROM #TMP_SC
+-- DROP TABLE #TMP_SC 
+*/
+
+/*
+------ZONA centrooriente-----------------------
+SELECT * into #TMP_SC FROM (
+Select * 
+From centrooriente
+Where (RCC_FEB2015 = '0' OR RCC_FEB2015 is NULL) 
+		AND (RCC_ENE2015 = '0' OR RCC_ENE2015 is NULL) 
+		AND (RCC_DIC2014 = '0' OR RCC_DIC2014 is NULL)
+		AND (RCC_NOV2014 = '0' OR RCC_NOV2014 is NULL)
+		AND (RCC_OCT2014 = '0' OR RCC_OCT2014 is NULL)
+		AND (RCC_SET2014 = '0' OR RCC_SET2014 is NULL)
+-- (17885 row(s) affected)
+) AS tmp01
+--
+
+SELECT * FROM #TMP_SC
+
+--01
+Update #TMP_SC
+Set RCC_FEB2015 = 'NORMAL'	
+where RCC_FEB2015 = '0' 
+
+Update #TMP_SC
+set RCC_ENE2015	= 'NORMAL' 
+where RCC_ENE2015 = '0'
+
+Update #TMP_SC
+SET RCC_DIC2014	= 'NORMAL' 
+where RCC_DIC2014 = '0'
+
+Update #TMP_SC
+SET RCC_NOV2014 = 'NORMAL' 
+where RCC_NOV2014 = '0'
+
+Update #TMP_SC
+SET RCC_OCT2014 = 'NORMAL' 
+where RCC_OCT2014 = '0'
+
+Update #TMP_SC
+SET RCC_SET2014 = 'NORMAL' 
+where RCC_SET2014 = '0'
+
+--02
+Update #TMP_SC
+Set RCC_FEB2015 = 'SIN REGISTRO'	
+where RCC_FEB2015 IS NULL 
+
+Update #TMP_SC
+set RCC_ENE2015	= 'SIN REGISTRO' 
+where RCC_ENE2015 IS NULL 
+
+Update #TMP_SC
+SET RCC_DIC2014	= 'SIN REGISTRO'
+where RCC_DIC2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_NOV2014 = 'SIN REGISTRO'
+where RCC_NOV2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_OCT2014 = 'SIN REGISTRO'
+where RCC_OCT2014 IS NULL 
+
+Update #TMP_SC
+SET RCC_SET2014 = 'SIN REGISTRO'
+where RCC_SET2014 IS NULL 
+
+Update #TMP_SC
+SET Direccion_Referencia_Cliente = ''
+where Direccion_Referencia_Cliente IS NULL 
+
+-- 03
+SELECT * FROM #TMP_SC
+-- DROP TABLE #TMP_SC 
+*/
+
+select * from limasur --(27176 row(s) affected)
+select * from limanorte --(16122 row(s) affected)
+select * from SELVA_CENTRAL --(22882 row(s) affected)
+select * from zonacentro --(24953 row(s) affected)
+select * from centrooriente --(23566 row(s) affected)
+
+
+

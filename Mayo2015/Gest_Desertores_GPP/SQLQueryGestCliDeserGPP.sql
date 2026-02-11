@@ -1,0 +1,108 @@
+select * from CLIDESER --2998
+
+ROW_NUMBER() 
+	OVER(PARTITION BY STC.cDesSubcRE 
+			ORDER BY CLI.cCodCliente ) AS Secuencia
+
+select count(distinct CODCLIENTE) from CLIDESER 
+
+select * from CLIDESER WHERE ZONA = 'ZONA SELVA CENTRAL' --391
+select * from CLIDESER WHERE ZONA = 'ZONA CENTRO ORIENTE' --490
+select * from CLIDESER WHERE ZONA = 'ZONA LIMA NORTE' --324
+select * from CLIDESER WHERE ZONA = 'ZONA LIMA SUR' --536
+select * from CLIDESER WHERE ZONA = 'ZONA CENTRO' --1257
+
+--*********************************INDEXANDO****************************************************
+CREATE NONCLUSTERED INDEX CLIDESER_CODCLIENTE_IXN ON CLIDESER(CODCLIENTE)
+--------------------****************************************************************************
+
+select * from CLIDESER WHERE AGENCIA_INI like '%AG%TARMA%' or AGENCIA like '%AG%TARMA%'
+
+
+select ZONA from CLIDESER
+GROUP BY ZONA
+/*
+ZONA SELVA CENTRAL
+ZONA CENTRO ORIENTE
+ZONA LIMA NORTE
+ZONA LIMA SUR
+ZONA CENTRO
+*/
+
+select CODCLIENTE,NOMBRE_CLIENTE,DIR_CLIENTE,DEPARTAMENTO,PROVINCIA,DISTRITO,cNomZona,TEL_CLI
+	AGENCIA_INI,AGENCIA,ZONA,cnumdoc as 'DNI',FECHA_DESERCION,ATRASO_PROM_TODOS_CRED
+	, ATRASO_PROM_ULT_CRED, MON_CREDITO,TASA,PLAZO,INGRESOS_INTERESES,TIPO_CREDITO
+	,PROD_CREDITO,SUB_PROD_CRED,EDAD,NIVEL_INSTRUCCION,ESTADO_CIV,dFecIniCre	
+from CLIDESER WHERE ZONA = 'ZONA SELVA CENTRAL'
+and CODCLIENTE COLLATE SQL_Latin1_General_CP1_CI_AS
+		not in  (Select CODIGO_CLIENTE from #TMP)
+
+select * from CLIDESER WHERE --ZONA = 'ZONA SELVA CENTRAL' 
+			--AGENCIA like '%AG%TARMA%'
+			AGENCIA_INI like '%AG%TARMA%'
+
+--SELECT * FROM #TMP
+SELECT * into #TMP FROM  (
+
+SELECT 
+	--Datos del Cliente	
+	CLIM.cNroDocIde as 'NroDocumento'
+	,CLI.cCodCliente AS 'CODIGO_CLIENTE'
+	,CLIM.cNomCliente AS 'NOMBRE_CLIENTE'
+	--DATOS DEL CREDITO
+	,CRE.cCodCtaCre AS 'CODIGO_CREDITO'
+	,EC.cDescriEst AS 'ESTADO_DEL_CREDITO'
+	,CRE.dFecDesCre as 'Fecha_Desembolso_Credito'
+	,CRE.nMonCapDes as 'MONTO_DESEMBOLSADO' 
+	,case CRE.cCodTipMon 
+	 When '1' then 'SOLES'
+	 WHEN '2' THEN 'DOLARES'
+	 END as 'MONEDA'
+	,CRE.cCodTipCre
+	,STC.cDesTipCre AS 'TIPO_DE_CREDITO'
+	,STC.cDesSubTip AS 'SUB_TIPO_DE_PRESTAMO'
+	,CRE.cCodProduc
+	,STC.cDesProCre AS 'PRODUCTO_CREDITICIO' 
+	,CRE.cCodSubPro	
+	,STC.cDesSubcRE AS 'SUBPRODUCTO_CREDITICIO'	
+	,O.cDesOficin AS 'NOMBRE_AGENCIA'
+	,zo.cNomZona as 'Detalle_Zona', zon.cDesZona as 'Zona'
+	,CRE.cCodUsuAna AS 'COD_ANALISTA'--COD ANALISTA
+	,SP.cNomPerson AS 'NOMBRE_ANALISTA'--NOMBRE ANALISTA  
+FROM [HYO00402].SOFCMACHYO_DIARIO_MANIANA.dbo.[KPYMCRECONVEN] CRE (NOLOCK)		
+	INNER JOIN [HYO00402].SOFCMACHYO_DIARIO_MANIANA.dbo.[GENMCRECLI] CLI 
+			ON CLI.cCodCtaCre = CRE.cCodCtaCre
+	INNER JOIN [HYO00402].CMACHYOCLI_MANIANA.dbo.[CLIMCLIENTES] CLIM 
+		    ON CLIM.cCodCliente = CLI.cCodCliente
+	INNER JOIN [HYO00402].SOFCMACHYO_DIARIO_MANIANA.dbo.[KPYTEstCreCon] EC 
+			ON EC.cEstCreCon = CRE.cEstCreCon
+	inner JOIN [HYO00402].SOFCMACHYO_DIARIO_MANIANA.dbo.[sipmpersonal] SP 
+	        ON SP.cCodPerson = CRE.cCodUsuAna
+	INNER JOIN [HYO00402].SOFCMACHYO_DIARIO_MANIANA.dbo.[GENTOficinas] O 
+	        ON O.cCodOficin = CRE.cCodOficin
+	INNER JOIN [HYO00402].SOFCMACHYO_DIARIO_MANIANA.dbo.[KPYDPRODUCTO] PROD
+			ON CRE.cCodProduc =  PROD.cCodProduc and CRE.cCodTipCre = PROD.cCodTipCre
+	INNER JOIN [HYO00402].SOFCMACHYO_DIARIO_MANIANA.dbo.[KPYDSUBPRODUC] SPRO
+			ON CRE.cCodSubPro = SPRO.cCodSubPro AND CRE.cCodTipCre = SPRO.cCodTipCre
+			AND CRE.cCodProduc =  SPRO.cCodProduc
+	INNER JOIN [HYO00402].SOFCMACHYO_DIARIO_MANIANA.dbo.[KPYTSUBTIPCRE] STC
+			ON CRE.cCodTipCre = STC.cCodTipCre AND CRE.cCodProduc = STC.cCodProduc 
+			AND CRE.cCodSubPro = STC.cCodSubPro and STC.lEstado = '1'
+	INNER JOIN [HYO00402].SOFCMACHYO_DIARIO_MANIANA.dbo.[GentZona] zo
+		ON ZO.cCodZona = O.cCodZona and zo.cCodDepart = O.cCodDepart
+		and zo.cCodProvin = O.cCodProvin  and zo.cCodDistri = O.cCodDistri
+	INNER JOIN [HYO00402].SOFCMACHYO_DIARIO_MANIANA.dbo.[Gentofizonas] goz
+		ON goz.cCodOficin = O.cCodOficin
+	INNER JOIN  [HYO00402].SOFCMACHYO_DIARIO_MANIANA.dbo.[GentZonas] zon
+		ON goz.nCodZona = zon.nCodZona	
+WHERE CLI.cCodCliente  COLLATE SQL_Latin1_General_CP1_CI_AS
+		--IN (select CODCLIENTE from CLIDESER WHERE ZONA = 'ZONA LIMA NORTE') -- 22
+		--IN (select CODCLIENTE from CLIDESER WHERE ZONA = 'ZONA SELVA CENTRAL') -- 32
+		--IN (select CODCLIENTE from CLIDESER WHERE ZONA = 'ZONA CENTRO ORIENTE') -- 36
+		--IN (select CODCLIENTE from CLIDESER WHERE ZONA = 'ZONA LIMA SUR') -- 31
+		--IN (select CODCLIENTE from CLIDESER WHERE ZONA = 'ZONA CENTRO') -- 97
+		--IN (select CODIGO_CLIENTE from AGTARMAV02 ) -- 
+		in (select CODCLIENTE from CLIDESER 
+				WHERE AGENCIA_INI like '%AG%TARMA%' or AGENCIA like '%AG%TARMA%')
+		AND CRE.cEstCreCon = 'F'
+) as tmp

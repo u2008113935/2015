@@ -1,0 +1,47 @@
+--SELECT * FROM AnalistasEstado
+
+--ASESOR	, ACTIVO_A_LA_FECHA, AGENCIA, ZONA
+
+select  
+	S.cCodPerson, S.cNomPerson, --O.OcCodZona
+	case S.cCodMotCes
+	WHEN '01' THEN 'TERMINO DE CONTRATO'
+	WHEN '02' THEN 'RENUNCIA DE TRABAJO'
+	WHEN '03' THEN 'DESPIDO DE TRABAJO'
+	WHEN '04' THEN 'CONTRATO RESCINDIDO'
+	WHEN '05' THEN 'ABANDONO DE TRABAJO'
+	ELSE 'SI'
+	END 'ACTIVO_A_LA_FECHA' --isnull(S.dFecCesIns,' ') AS 'FECHA'
+	,O.cDesOficin AS 'AGENCIA'
+	--,Z.cNomZona AS ZONA
+from [HYO00409\HISTORICO].SOFCMACHYO_201502.dbo.[sipmpersonal] S
+	INNER JOIN [HYO00409\HISTORICO].SOFCMACHYO_201502.dbo.[GENTOficinas] O 
+		ON O.cCodOficin = S.cCodOficin
+	--left JOIN [HYO00409\HISTORICO].SOFCMACHYO_201502.dbo.[GENTZona] Z 
+		--ON S.cCodZona = Z.cCodZona
+WHERE cCodPerson IN  (SELECT asesor FROM AnalistasEstado)--('AHUAYN')
+--('NCASTI','KVALGA','RAYLLO','WSOTOA','MPILCO','ACAJAN')
+--AND cCodGruPer IN ('013','057') 
+
+/*
+SELECT TOP 2 *
+from [HYO00409\HISTORICO].SOFCMACHYO_201502.dbo.[sipmpersonal] S
+WHERE cCodMotCes is not null
+
+SELECT  *
+from [HYO00409\HISTORICO].SOFCMACHYO_201502.dbo.[siptmotivocese] MC
+/*
+cCodMotCes	cDesMotCes	cDesCorta	lConEstado
+01	TERMINO DE CONTRATO           	          	1
+02	RENUNCIA DE TRABAJO           	          	1
+03	DESPIDO DE TRABAJO            	          	1
+04	CONTRATO RESCINDIDO           	          	1
+05	ABANDONO DE TRABAJO           	          	0
+*/
+
+SELECT TOP 2 *
+FROM [HYO00409\HISTORICO].SOFCMACHYO_201502.dbo.[GENTOficinas] O 
+
+SELECT TOP 50 *
+FROM [HYO00409\HISTORICO].SOFCMACHYO_201502.dbo.[GENTZona] Z 
+*/
