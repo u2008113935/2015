@@ -1,0 +1,3068 @@
+{
+  "fecha_analisis": "2026-02-11T21:46:46.787979",
+  "resumen_general": {
+    "total_scripts": 259,
+    "total_repositorios": 1,
+    "total_categorias": 12,
+    "periodo": "2015-2018"
+  },
+  "por_repositorio": {
+    "2015": {
+      "total": 259,
+      "categorias": {
+        "Créditos": 57,
+        "RCC": 1,
+        "Cartera": 34,
+        "Análisis Geográfico": 8,
+        "Otros": 72,
+        "Reportes SBS": 8,
+        "Análisis Financiero": 2,
+        "Clientes": 51,
+        "Expedientes": 10,
+        "Garantías": 9,
+        "Morosidad": 5,
+        "Promotor Inmobiliario": 2
+      }
+    }
+  },
+  "por_categoria": {
+    "Créditos": 57,
+    "RCC": 1,
+    "Cartera": 34,
+    "Análisis Geográfico": 8,
+    "Otros": 72,
+    "Reportes SBS": 8,
+    "Análisis Financiero": 2,
+    "Clientes": 51,
+    "Expedientes": 10,
+    "Garantías": 9,
+    "Morosidad": 5,
+    "Promotor Inmobiliario": 2
+  },
+  "por_mes": {
+    "2015-Noviembre": 25,
+    "2015-Diciembre": 17,
+    "2015-Julio": 34,
+    "2015-Agosto": 23,
+    "2015-Junio": 20,
+    "2015-Abril": 29,
+    "2015-Marzo": 2,
+    "2015-Mayo": 63,
+    "2015-Septiembre": 27,
+    "2015-Octubre": 19
+  },
+  "detalle_archivos": [
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Créditos",
+      "nombre": "QueryCreditosEmpresariales.sql",
+      "ruta": "Noviembre2015/Julita/QueryCreditosEmpresariales.sql",
+      "tamanio_bytes": 9423,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "RCC",
+      "nombre": "CalificacionUriesgos.sql",
+      "ruta": "Noviembre2015/Julita/CalificacionUriesgos.sql",
+      "tamanio_bytes": 394107,
+      "keywords_detectadas": [
+        "riesgo"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Créditos",
+      "nombre": "QueryDesembolsosMes.sql",
+      "ruta": "Noviembre2015/CPurisDesembolso_Oct2015/QueryDesembolsosMes.sql",
+      "tamanio_bytes": 10409,
+      "keywords_detectadas": [
+        "desemb"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Créditos",
+      "nombre": "QueryCredUnicuotas_al30092015.sql",
+      "ruta": "Noviembre2015/CredUniCuotas/QueryCredUnicuotas_al30092015.sql",
+      "tamanio_bytes": 10786,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Cartera",
+      "nombre": "QueryCartSelva.sql",
+      "ruta": "Noviembre2015/CarteraAgSelva/QueryCartSelva.sql",
+      "tamanio_bytes": 6093,
+      "keywords_detectadas": [
+        "cart",
+        "selva"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Análisis Geográfico",
+      "nombre": "QueryAmpliaLimaNorte.sql",
+      "ruta": "Noviembre2015/AmpliacionesLimaNorte/QueryAmpliaLimaNorte.sql",
+      "tamanio_bytes": 21099,
+      "keywords_detectadas": [
+        "norte"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Créditos",
+      "nombre": "QueryHipotecarios.sql",
+      "ruta": "Noviembre2015/CredHipotDesemdesde2010/QueryHipotecarios.sql",
+      "tamanio_bytes": 5153,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Otros",
+      "nombre": "Query.sql",
+      "ruta": "Noviembre2015/CalificacionSraEli/Query.sql",
+      "tamanio_bytes": 658,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Reportes SBS",
+      "nombre": "QueryAnexoSBS.sql",
+      "ruta": "Noviembre2015/AnexoSBS/QueryAnexoSBS.sql",
+      "tamanio_bytes": 1446,
+      "keywords_detectadas": [
+        "sbs"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Análisis Financiero",
+      "nombre": "QueryEEFF.sql",
+      "ruta": "Noviembre2015/EEFFNoMinorista/QueryEEFF.sql",
+      "tamanio_bytes": 7073,
+      "keywords_detectadas": [
+        "eeff"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Otros",
+      "nombre": "QueryLircay.sql",
+      "ruta": "Noviembre2015/Dennis_Lircay/QueryLircay.sql",
+      "tamanio_bytes": 9664,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Otros",
+      "nombre": "Query_DiasGracias.sql",
+      "ruta": "Noviembre2015/DiasGraciaJulita/Query_DiasGracias.sql",
+      "tamanio_bytes": 3173,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Reportes SBS",
+      "nombre": "Query.sql",
+      "ruta": "Noviembre2015/Sentinel/Query.sql",
+      "tamanio_bytes": 270,
+      "keywords_detectadas": [
+        "sentinel"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Clientes",
+      "nombre": "QueryAgencias.sql",
+      "ruta": "Noviembre2015/ClientesCompartidos/CantClientes_GPI/QueryAgencias.sql",
+      "tamanio_bytes": 413,
+      "keywords_detectadas": [
+        "cli",
+        "agencia"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Clientes",
+      "nombre": "QueryRCC_Espejo.sql",
+      "ruta": "Noviembre2015/ClientesCompartidos/CantClientes_GPI/QueryRCC_Espejo.sql",
+      "tamanio_bytes": 264,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Clientes",
+      "nombre": "QueryCantCliRCC_v02.sql",
+      "ruta": "Noviembre2015/ClientesCompartidos/CantClientes_GPI/QueryCantCliRCC_v02.sql",
+      "tamanio_bytes": 16193,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Clientes",
+      "nombre": "ExtraeNumeroClientesExclusivosCompartidosporAgencia.sql",
+      "ruta": "Noviembre2015/ClientesCompartidos/CantClientes_GPI/ExtraeNumeroClientesExclusivosCompartidosporAgencia.sql",
+      "tamanio_bytes": 5755,
+      "keywords_detectadas": [
+        "cli",
+        "agencia"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Clientes",
+      "nombre": "QueryCantCliRCC_v03.sql",
+      "ruta": "Noviembre2015/ClientesCompartidos/CantClientes_GPI/QueryCantCliRCC_v03.sql",
+      "tamanio_bytes": 28717,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Clientes",
+      "nombre": "QueryClientesCompartidos.sql",
+      "ruta": "Noviembre2015/ClientesCompartidos/CantClientes_GPI/QueryClientesCompartidos.sql",
+      "tamanio_bytes": 9765,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Cartera",
+      "nombre": "QueryCarteraActEconoV01.sql",
+      "ruta": "Noviembre2015/CarteraActEcono/QueryCarteraActEconoV01.sql",
+      "tamanio_bytes": 3750,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Créditos",
+      "nombre": "QueryCredPlazoFijo.sql",
+      "ruta": "Noviembre2015/CredPlazoFijo/QueryCredPlazoFijo.sql",
+      "tamanio_bytes": 2904,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Otros",
+      "nombre": "QueryRakingAsesores.sql",
+      "ruta": "Noviembre2015/RankingAsesores/QueryRakingAsesores.sql",
+      "tamanio_bytes": 8699,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Otros",
+      "nombre": "QueryDataClass.sql",
+      "ruta": "Noviembre2015/DataClass/QueryDataClass.sql",
+      "tamanio_bytes": 10498,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Otros",
+      "nombre": "QueryDataProductos.sql",
+      "ruta": "Noviembre2015/DataProductos_JuandDios/QueryDataProductos.sql",
+      "tamanio_bytes": 6982,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Noviembre",
+      "categoria": "Créditos",
+      "nombre": "QueryCrediCasaHan.sql",
+      "ruta": "Noviembre2015/CrediCasaHabitacional/QueryCrediCasaHan.sql",
+      "tamanio_bytes": 3718,
+      "keywords_detectadas": [
+        "cred",
+        "credicasa"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Créditos",
+      "nombre": "QueryCreditosHipotecarios.sql",
+      "ruta": "Diciembre2015/CreditosHipotecarios/QueryCreditosHipotecarios.sql",
+      "tamanio_bytes": 4841,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Otros",
+      "nombre": "QueryFinanzasDataHistorica.sql",
+      "ruta": "Diciembre2015/FinanzasDataHistorica/QueryFinanzasDataHistorica.sql",
+      "tamanio_bytes": 4602,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Otros",
+      "nombre": "QueryFinanzasDataHistoricaV01.sql",
+      "ruta": "Diciembre2015/FinanzasDataHistorica/QueryFinanzasDataHistoricaV01.sql",
+      "tamanio_bytes": 2024,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Análisis Geográfico",
+      "nombre": "QueryGestionSaldoxAgencia.sql",
+      "ruta": "Diciembre2015/GestionSaldosxAgencia/QueryGestionSaldoxAgencia.sql",
+      "tamanio_bytes": 9602,
+      "keywords_detectadas": [
+        "agencia"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Otros",
+      "nombre": "QueryMiVivienda.sql",
+      "ruta": "Diciembre2015/MiVivienda/QueryMiVivienda.sql",
+      "tamanio_bytes": 6346,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Otros",
+      "nombre": "SQLTablaTemporal.sql",
+      "ruta": "Diciembre2015/TablaTemporal/SQLTablaTemporal.sql",
+      "tamanio_bytes": 4222,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Otros",
+      "nombre": "QueryLlenado.sql",
+      "ruta": "Diciembre2015/JoseZuritaLlenado/QueryLlenado.sql",
+      "tamanio_bytes": 536,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Créditos",
+      "nombre": "CrediEcologicoQuery.sql",
+      "ruta": "Diciembre2015/CrediEcologico/CrediEcologicoQuery.sql",
+      "tamanio_bytes": 7038,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Créditos",
+      "nombre": "02_SP.sql",
+      "ruta": "Diciembre2015/CrediEcologico/02_SP.sql",
+      "tamanio_bytes": 137358,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Cartera",
+      "nombre": "TraslaCartQuery.sql",
+      "ruta": "Diciembre2015/TrasladoCartera/TraslaCartQuery.sql",
+      "tamanio_bytes": 7826,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Cartera",
+      "nombre": "QueryCartera.sql",
+      "ruta": "Diciembre2015/CarteraEvita/QueryCartera.sql",
+      "tamanio_bytes": 5640,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Clientes",
+      "nombre": "CentroOrienteEndeuQuery.sql",
+      "ruta": "Diciembre2015/CentroOrienteCliEndeu/CentroOrienteEndeuQuery.sql",
+      "tamanio_bytes": 4726,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Otros",
+      "nombre": "QueryAmpliacion.sql",
+      "ruta": "Diciembre2015/AmpliacionesSusan/QueryAmpliacion.sql",
+      "tamanio_bytes": 18491,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Créditos",
+      "nombre": "QueryDesembolsosMes.sql",
+      "ruta": "Diciembre2015/CPurisDesembolso_Nov2015/QueryDesembolsosMes.sql",
+      "tamanio_bytes": 10406,
+      "keywords_detectadas": [
+        "desemb"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Créditos",
+      "nombre": "QueryCreditosVencidos.sql",
+      "ruta": "Diciembre2015/CreditosVencido/QueryCreditosVencidos.sql",
+      "tamanio_bytes": 4243,
+      "keywords_detectadas": [
+        "cred",
+        "vencido"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Análisis Geográfico",
+      "nombre": "QueryComiteDetallado.sql",
+      "ruta": "Diciembre2015/LimaSurComites/ComitesDetallados/QueryComiteDetallado.sql",
+      "tamanio_bytes": 6002,
+      "keywords_detectadas": [
+        "sur"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Diciembre",
+      "categoria": "Análisis Geográfico",
+      "nombre": "QueryLimaSurComites.sql",
+      "ruta": "Diciembre2015/LimaSurComites/Consolidado/QueryLimaSurComites.sql",
+      "tamanio_bytes": 6020,
+      "keywords_detectadas": [
+        "sur"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Expedientes",
+      "nombre": "QueryExpJJ.sql",
+      "ruta": "Diciembre2015/ExpedientesJuanJulio/QueryExpJJ.sql",
+      "tamanio_bytes": 1072,
+      "keywords_detectadas": [
+        "exp"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Créditos",
+      "nombre": "QueryCredConsumo.sql",
+      "ruta": "Agosto2015/JoseZuritaCredConsumo/QueryCredConsumo.sql",
+      "tamanio_bytes": 7154,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Otros",
+      "nombre": "QuerySol.sql",
+      "ruta": "Agosto2015/Sol/QuerySol.sql",
+      "tamanio_bytes": 760,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Créditos",
+      "nombre": "QueryCredGarPlazoFijo.sql",
+      "ruta": "Agosto2015/JZuritaPlazoFijo/QueryCredGarPlazoFijo.sql",
+      "tamanio_bytes": 5486,
+      "keywords_detectadas": [
+        "cred",
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Otros",
+      "nombre": "QueryBL.sql",
+      "ruta": "Agosto2015/CasoBelaundeLossio/QueryBL.sql",
+      "tamanio_bytes": 7084,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Garantías",
+      "nombre": "QueryGarantPropi.sql",
+      "ruta": "Agosto2015/PropietarioGarantias/QueryGarantPropi.sql",
+      "tamanio_bytes": 1034,
+      "keywords_detectadas": [
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Créditos",
+      "nombre": "QueryDesembolsos.sql",
+      "ruta": "Agosto2015/CredDesembCPuris/QueryDesembolsos.sql",
+      "tamanio_bytes": 1809,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Expedientes",
+      "nombre": "QueryExpedienteAgSanFrancisco.sql",
+      "ruta": "Agosto2015/ExpJuanJulio/QueryExpedienteAgSanFrancisco.sql",
+      "tamanio_bytes": 2424,
+      "keywords_detectadas": [
+        "exp"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Cartera",
+      "nombre": "QueryCFRango.sql",
+      "ruta": "Agosto2015/CartasFianzasJefRegional/QueryCFRango.sql",
+      "tamanio_bytes": 11328,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Créditos",
+      "nombre": "QueryCredAprobAdm.sql",
+      "ruta": "Agosto2015/CredAprobAdm/QueryCredAprobAdm.sql",
+      "tamanio_bytes": 5523,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Créditos",
+      "nombre": "QueryCreModalidad.sql",
+      "ruta": "Agosto2015/BelissaCreditoModalidad/QueryCreModalidad.sql",
+      "tamanio_bytes": 5390,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Otros",
+      "nombre": "QueryAval.sql",
+      "ruta": "Agosto2015/Aval/QueryAval.sql",
+      "tamanio_bytes": 1150,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "QueryCredHipoWS.sql",
+      "ruta": "Agosto2015/CredHipJulio2015/QueryCredHipoWS.sql",
+      "tamanio_bytes": 18281,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Créditos",
+      "nombre": "QueryCredEmpresariales.sql",
+      "ruta": "Agosto2015/CredEmpresarialesBellisaJuandDios/QueryCredEmpresariales.sql",
+      "tamanio_bytes": 9306,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Análisis Geográfico",
+      "nombre": "QueryZonaAgencia.sql",
+      "ruta": "Agosto2015/AgenciasZona/QueryZonaAgencia.sql",
+      "tamanio_bytes": 1461,
+      "keywords_detectadas": [
+        "zona"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Morosidad",
+      "nombre": "QueryTramosvencido.sql",
+      "ruta": "Agosto2015/TramosVencido/QueryTramosvencido.sql",
+      "tamanio_bytes": 3399,
+      "keywords_detectadas": [
+        "vencido"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Otros",
+      "nombre": "QueryPromedioDiasMora.sql",
+      "ruta": "Agosto2015/PromedioDiasMora/QueryPromedioDiasMora.sql",
+      "tamanio_bytes": 706,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Otros",
+      "nombre": "QuerySextorTransporte.sql",
+      "ruta": "Agosto2015/JoseZurita/QuerySextorTransporte.sql",
+      "tamanio_bytes": 13490,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Otros",
+      "nombre": "QueryCompletarCampos.sql",
+      "ruta": "Agosto2015/BelissaCompletarCampos/QueryCompletarCampos.sql",
+      "tamanio_bytes": 6894,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Otros",
+      "nombre": "QueryGenmKardex.sql",
+      "ruta": "Agosto2015/BelissaCompletarCampos/QueryGenmKardex.sql",
+      "tamanio_bytes": 21559,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Clientes",
+      "nombre": "QueryEEFF.sql",
+      "ruta": "Agosto2015/EEFFClientsNoMinoristas/QueryEEFF.sql",
+      "tamanio_bytes": 7065,
+      "keywords_detectadas": [
+        "cli",
+        "eeff"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Otros",
+      "nombre": "JefeQueryRegional.sql",
+      "ruta": "Agosto2015/AprobacionJefesRegionales/JefeQueryRegional.sql",
+      "tamanio_bytes": 5406,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Créditos",
+      "nombre": "QueryCredJR.sql",
+      "ruta": "Agosto2015/CredOtorgJR/QueryCredJR.sql",
+      "tamanio_bytes": 4160,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Cartera",
+      "nombre": "QueryCartNoMinorista.sql",
+      "ruta": "Agosto2015/JuandeDiosCarteraNoMinorista/QueryCartNoMinorista.sql",
+      "tamanio_bytes": 9073,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Otros",
+      "nombre": "QueryAdmDirecJZurita.sql",
+      "ruta": "Agosto2015/AdmDirectoresJoseZurita/QueryAdmDirecJZurita.sql",
+      "tamanio_bytes": 3408,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Agosto",
+      "categoria": "Otros",
+      "nombre": "QueryTargentCampaña.sql",
+      "ruta": "Agosto2015/JuandDios/QueryTargentCampaña.sql",
+      "tamanio_bytes": 690,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryHipotW.sql",
+      "ruta": "Junio2015/WilliamHipotecarios/SQLQueryHipotW.sql",
+      "tamanio_bytes": 6994,
+      "keywords_detectadas": [
+        "hipot"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryDetalleCartaFianza.sql",
+      "ruta": "Junio2015/CartasFianzaJuandDios/SQLQueryDetalleCartaFianza.sql",
+      "tamanio_bytes": 3867,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCartaFianza.sql",
+      "ruta": "Junio2015/CartasFianzaJuandDios/SQLQueryCartaFianza.sql",
+      "tamanio_bytes": 11333,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryUpdateCartafianza.sql",
+      "ruta": "Junio2015/CartasFianzaJuandDios/SQLQueryUpdateCartafianza.sql",
+      "tamanio_bytes": 3704,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCartAnalista.sql",
+      "ruta": "Junio2015/CarteraAnalista/SQLQueryCartAnalista.sql",
+      "tamanio_bytes": 3523,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Otros",
+      "nombre": "SQLQueryPuntaje.sql",
+      "ruta": "Junio2015/PuntajeAnalistas/SQLQueryPuntaje.sql",
+      "tamanio_bytes": 2784,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Otros",
+      "nombre": "SQLQueryJoyasAdjXMes.sql",
+      "ruta": "Junio2015/JoyasAdjundicadasXMes/SQLQueryJoyasAdjXMes.sql",
+      "tamanio_bytes": 6351,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Otros",
+      "nombre": "SQLQueryBusqueda.sql",
+      "ruta": "Junio2015/BelissaBusqueda/SQLQueryBusqueda.sql",
+      "tamanio_bytes": 3432,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Reportes SBS",
+      "nombre": "SQLQueryCarlosProdSBS.sql",
+      "ruta": "Junio2015/CarlitosProdSBS/SQLQueryCarlosProdSBS.sql",
+      "tamanio_bytes": 879,
+      "keywords_detectadas": [
+        "sbs"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Otros",
+      "nombre": "SQLQueryListaAsesores.sql",
+      "ruta": "Junio2015/ListaAsesores/SQLQueryListaAsesores.sql",
+      "tamanio_bytes": 3374,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Otros",
+      "nombre": "SQLQueryDirecciones.sql",
+      "ruta": "Junio2015/DireccNegDomiciCarlitos/SQLQueryDirecciones.sql",
+      "tamanio_bytes": 2846,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCartNoMinorista.sql",
+      "ruta": "Junio2015/CarteraNoMinoristas/SQLQueryCartNoMinorista.sql",
+      "tamanio_bytes": 7886,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Otros",
+      "nombre": "SQLQueryAvanceMetas.sql",
+      "ruta": "Junio2015/AvanceMetas/SQLQueryAvanceMetas.sql",
+      "tamanio_bytes": 7840,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Expedientes",
+      "nombre": "SQLQueryMkt.sql",
+      "ruta": "Junio2015/SusanExpirianPilotoMKT/SQLQueryMkt.sql",
+      "tamanio_bytes": 5295,
+      "keywords_detectadas": [
+        "exp"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Otros",
+      "nombre": "SQLQueryParametros.sql",
+      "ruta": "Junio2015/VisualizarSP/SQLQueryParametros.sql",
+      "tamanio_bytes": 587,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Otros",
+      "nombre": "SQLQuerySusanAsesor.sql",
+      "ruta": "Junio2015/SussanAsesor/SQLQuerySusanAsesor.sql",
+      "tamanio_bytes": 2758,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryAprobCartFianza.sql",
+      "ruta": "Junio2015/AprobacionCartaFianza/SQLQueryAprobCartFianza.sql",
+      "tamanio_bytes": 3279,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryCredUnicuotas.sql",
+      "ruta": "Junio2015/UniCoutas/SQLQueryCredUnicuotas.sql",
+      "tamanio_bytes": 621,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Reportes SBS",
+      "nombre": "SQLQueryNumEntSbs.sql",
+      "ruta": "Abril2015/NumEntSbs/SQLQueryNumEntSbs.sql",
+      "tamanio_bytes": 1576,
+      "keywords_detectadas": [
+        "sbs"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Otros",
+      "nombre": "SQLQuery_BN.sql",
+      "ruta": "Abril2015/Banco_Nacion/SQLQuery_BN.sql",
+      "tamanio_bytes": 901,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Otros",
+      "nombre": "SQLQuery_BN_Det.sql",
+      "ruta": "Abril2015/Banco_Nacion/SQLQuery_BN_Det.sql",
+      "tamanio_bytes": 11142,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Otros",
+      "nombre": "SQLQueryWS.sql",
+      "ruta": "Abril2015/WS_/SQLQueryWS.sql",
+      "tamanio_bytes": 8263,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Otros",
+      "nombre": "SQLQueryEstadoAnalistas.sql",
+      "ruta": "Abril2015/OscarYance/SQLQueryEstadoAnalistas.sql",
+      "tamanio_bytes": 377,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCalRCC.sql",
+      "ruta": "Abril2015/CarteraChincha/SQLQueryCalRCC.sql",
+      "tamanio_bytes": 12770,
+      "keywords_detectadas": [
+        "cart",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCarteraChincha_Det.sql",
+      "ruta": "Abril2015/CarteraChincha/SQLQueryCarteraChincha_Det.sql",
+      "tamanio_bytes": 5234,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCarteraChincha.sql",
+      "ruta": "Abril2015/CarteraChincha/SQLQueryCarteraChincha.sql",
+      "tamanio_bytes": 13067,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryConsolidado_x_tipo_credito.sql",
+      "ruta": "Abril2015/Consolidado_x_Tipo_Credito/SQLQueryConsolidado_x_tipo_credito.sql",
+      "tamanio_bytes": 5060,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQuery_Dario.sql",
+      "ruta": "Abril2015/Clientes RCC/SQLQuery_Dario.sql",
+      "tamanio_bytes": 961,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClientesRCC.sql",
+      "ruta": "Abril2015/Clientes RCC/SQLQueryClientesRCC.sql",
+      "tamanio_bytes": 4404,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClientesCajaRCC_v01.sql",
+      "ruta": "Abril2015/Clientes RCC/SQLQueryClientesCajaRCC_v01.sql",
+      "tamanio_bytes": 16027,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClientesCajaRCC_v03.sql",
+      "ruta": "Abril2015/Clientes RCC/SQLQueryClientesCajaRCC_v03.sql",
+      "tamanio_bytes": 6214,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClientesCajaRCC_v02.sql",
+      "ruta": "Abril2015/Clientes RCC/SQLQueryClientesCajaRCC_v02.sql",
+      "tamanio_bytes": 4665,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClientesCajaRCC.sql",
+      "ruta": "Abril2015/Clientes RCC/SQLQueryClientesCajaRCC.sql",
+      "tamanio_bytes": 369,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClientesSoloCHYO.sql",
+      "ruta": "Abril2015/Clientes RCC/SQLQueryClientesSoloCHYO.sql",
+      "tamanio_bytes": 13422,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryTotalClientesCaja_v01.sql",
+      "ruta": "Abril2015/Clientes RCC/SQLQueryTotalClientesCaja_v01.sql",
+      "tamanio_bytes": 2500,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClientesCajaRCC_v02_Det.sql",
+      "ruta": "Abril2015/Clientes RCC/SQLQueryClientesCajaRCC_v02_Det.sql",
+      "tamanio_bytes": 12177,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryTotalClie_OnLine.sql",
+      "ruta": "Abril2015/TotaldeClientes/SQLQueryTotalClie_OnLine.sql",
+      "tamanio_bytes": 1553,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryTotalClientesCaja_v01.sql",
+      "ruta": "Abril2015/TotaldeClientes/SQLQueryTotalClientesCaja_v01.sql",
+      "tamanio_bytes": 1444,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClienteDesertores_V01.sql",
+      "ruta": "Abril2015/ClientesDesertores/SQLQueryClienteDesertores_V01.sql",
+      "tamanio_bytes": 36838,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryCliDes_CreCursor.sql",
+      "ruta": "Abril2015/ClientesDesertores/SQLQueryCliDes_CreCursor.sql",
+      "tamanio_bytes": 120,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryCliDesertores.sql",
+      "ruta": "Abril2015/ClientesDesertores/SQLQueryCliDesertores.sql",
+      "tamanio_bytes": 9666,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryAgenciasxZona.sql",
+      "ruta": "Abril2015/ClientesDesertores/SQLQueryAgenciasxZona.sql",
+      "tamanio_bytes": 1332,
+      "keywords_detectadas": [
+        "cli",
+        "zona"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQuery_PlandPagos.sql",
+      "ruta": "Abril2015/ClientesDesertores/SQLQuery_PlandPagos.sql",
+      "tamanio_bytes": 721,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryBorradorCliDese.sql",
+      "ruta": "Abril2015/ClientesDesertores/SQLQueryBorradorCliDese.sql",
+      "tamanio_bytes": 590,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClienteDesertores.sql",
+      "ruta": "Abril2015/ClientesDesertores/SQLQueryClienteDesertores.sql",
+      "tamanio_bytes": 6115,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClienteDesertores_V02.sql",
+      "ruta": "Abril2015/ClientesDesertores/SQLQueryClienteDesertores_V02.sql",
+      "tamanio_bytes": 39931,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Abril",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClienteDesertores_V02_Det.sql",
+      "ruta": "Abril2015/ClientesDesertores/SQLQueryClienteDesertores_V02_Det.sql",
+      "tamanio_bytes": 4614,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Marzo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryAnalistasEstado.sql",
+      "ruta": "Marzo2015/Carlos/SQLQueryAnalistasEstado.sql",
+      "tamanio_bytes": 1537,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Marzo",
+      "categoria": "Clientes",
+      "nombre": "SQLQuery_ClientesNuevos.sql",
+      "ruta": "Marzo2015/ClientesNuevos/SQLQuery_ClientesNuevos.sql",
+      "tamanio_bytes": 6480,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQuerygp.sql",
+      "ruta": "Mayo2015/CarlosPuris/SQLQuerygp.sql",
+      "tamanio_bytes": 2239,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryConve_Canc_Huacho.sql",
+      "ruta": "Mayo2015/Convenios_Cancelados_Huacho/SQLQueryConve_Canc_Huacho.sql",
+      "tamanio_bytes": 7034,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryLista.sql",
+      "ruta": "Mayo2015/ListaCarlitos22/SQLQueryLista.sql",
+      "tamanio_bytes": 2252,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryCred_Desem_Excep_SraEli.sql",
+      "ruta": "Mayo2015/Bellisa_Excepciones/SQLQueryCred_Desem_Excep_SraEli.sql",
+      "tamanio_bytes": 9252,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryCred_Desem_Excep_Belissa.sql",
+      "ruta": "Mayo2015/Bellisa_Excepciones/SQLQueryCred_Desem_Excep_Belissa.sql",
+      "tamanio_bytes": 10900,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryCred_Desem_Excep_original.sql",
+      "ruta": "Mayo2015/Bellisa_Excepciones/SQLQueryCred_Desem_Excep_original.sql",
+      "tamanio_bytes": 9123,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Reportes SBS",
+      "nombre": "SQLQuerycali.sql",
+      "ruta": "Mayo2015/LemurSBS/SQLQuerycali.sql",
+      "tamanio_bytes": 12549,
+      "keywords_detectadas": [
+        "sbs"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Reportes SBS",
+      "nombre": "SQLQuery15.sql",
+      "ruta": "Mayo2015/LemurSBS/15Clientes/SQLQuery15.sql",
+      "tamanio_bytes": 15118,
+      "keywords_detectadas": [
+        "sbs",
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryGestCliDeserGPP.sql",
+      "ruta": "Mayo2015/Gest_Desertores_GPP/SQLQueryGestCliDeserGPP.sql",
+      "tamanio_bytes": 4694,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClientes.sql",
+      "ruta": "Mayo2015/ClientesExclusivos/SQLQueryClientes.sql",
+      "tamanio_bytes": 251,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryCliExcValidando.sql",
+      "ruta": "Mayo2015/ClientesExclusivos/SQLQueryCliExcValidando.sql",
+      "tamanio_bytes": 433,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryClientesExclusivosNoExclusivos.sql",
+      "ruta": "Mayo2015/ClientesExclusivos/SQLQueryClientesExclusivosNoExclusivos.sql",
+      "tamanio_bytes": 122657,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryResultado.sql",
+      "ruta": "Mayo2015/ClientesExclusivos/SQLQueryResultado.sql",
+      "tamanio_bytes": 7396,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Análisis Geográfico",
+      "nombre": "SQLQueryZonaAgencia.sql",
+      "ruta": "Mayo2015/ZonasAgencias/SQLQueryZonaAgencia.sql",
+      "tamanio_bytes": 1444,
+      "keywords_detectadas": [
+        "zona"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Reportes SBS",
+      "nombre": "SQLQueryReqSBS.sql",
+      "ruta": "Mayo2015/ReqSBS_WS_JZ/SQLQueryReqSBS.sql",
+      "tamanio_bytes": 4631,
+      "keywords_detectadas": [
+        "sbs"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Reportes SBS",
+      "nombre": "SQLQueryReqSBSPromotor.sql",
+      "ruta": "Mayo2015/ReqSBS_WS_JZ/SQLQueryReqSBSPromotor.sql",
+      "tamanio_bytes": 4392,
+      "keywords_detectadas": [
+        "sbs",
+        "promotor"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryMkt.sql",
+      "ruta": "Mayo2015/JoseZuritaMarketing/SQLQueryMkt.sql",
+      "tamanio_bytes": 5135,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Expedientes",
+      "nombre": "SQLQueryExpedientes.sql",
+      "ruta": "Mayo2015/ExpedientesJuanNaupari/SQLQueryExpedientes.sql",
+      "tamanio_bytes": 1810,
+      "keywords_detectadas": [
+        "exp"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryCredRoya.sql",
+      "ruta": "Mayo2015/JuliaLaRoya/SQLQueryCredRoya.sql",
+      "tamanio_bytes": 7027,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Garantías",
+      "nombre": "SQLQuerySP.sql",
+      "ruta": "Mayo2015/JZuritaPrendarios/SQLQuerySP.sql",
+      "tamanio_bytes": 8194,
+      "keywords_detectadas": [
+        "prenda"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Garantías",
+      "nombre": "SQLQueryJZuritaPrendarios.sql",
+      "ruta": "Mayo2015/JZuritaPrendarios/SQLQueryJZuritaPrendarios.sql",
+      "tamanio_bytes": 5762,
+      "keywords_detectadas": [
+        "prenda"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryHipotecariosDola.sql",
+      "ruta": "Mayo2015/WS_Hipotecarios/SQLQueryHipotecariosDola.sql",
+      "tamanio_bytes": 4744,
+      "keywords_detectadas": [
+        "hipot"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryConvenios.sql",
+      "ruta": "Mayo2015/ListaConvenioJoseZurita/SQLQueryConvenios.sql",
+      "tamanio_bytes": 8323,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Morosidad",
+      "nombre": "SQLQueryTramosV01.sql",
+      "ruta": "Mayo2015/TramosVencida/SQLQueryTramosV01.sql",
+      "tamanio_bytes": 3698,
+      "keywords_detectadas": [
+        "tramo"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Morosidad",
+      "nombre": "SQLQueryTramos.sql",
+      "ruta": "Mayo2015/TramosVencida/SQLQueryTramos.sql",
+      "tamanio_bytes": 5914,
+      "keywords_detectadas": [
+        "tramo"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryClientesAhorCred.sql",
+      "ruta": "Mayo2015/ClienteCarlitosPuris/SQLQueryClientesAhorCred.sql",
+      "tamanio_bytes": 7127,
+      "keywords_detectadas": [
+        "cred",
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryDividirRiesgos.sql",
+      "ruta": "Mayo2015/ClienteCarlitosPuris/Dividir/SQLQueryDividirRiesgos.sql",
+      "tamanio_bytes": 770,
+      "keywords_detectadas": [
+        "cli",
+        "riesgo"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryDividirHist.sql",
+      "ruta": "Mayo2015/ClienteCarlitosPuris/Dividir/SQLQueryDividirHist.sql",
+      "tamanio_bytes": 209,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryGestCliDeserSGN.sql",
+      "ruta": "Mayo2015/Gest_Desertores_SGN/SQLQueryGestCliDeserSGN.sql",
+      "tamanio_bytes": 4572,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryResulDeserSGN.sql",
+      "ruta": "Mayo2015/Gest_Desertores_SGN/ResulDesert/SQLQueryResulDeserSGN.sql",
+      "tamanio_bytes": 9133,
+      "keywords_detectadas": [
+        "desertor"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQuery2doEnvio.sql",
+      "ruta": "Mayo2015/Gest_Desertores_SGN/2doEnvioJunio/SQLQuery2doEnvio.sql",
+      "tamanio_bytes": 1358,
+      "keywords_detectadas": [
+        "desertor"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryLimpioxAgencias.sql",
+      "ruta": "Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryLimpioxAgencias.sql",
+      "tamanio_bytes": 5677,
+      "keywords_detectadas": [
+        "cli",
+        "rcc",
+        "agencia"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryCaliRCCClientesDesertores_CentroOriente.sql",
+      "ruta": "Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryCaliRCCClientesDesertores_CentroOriente.sql",
+      "tamanio_bytes": 3417,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryLimpio.sql",
+      "ruta": "Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryLimpio.sql",
+      "tamanio_bytes": 8678,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryCaliRCCClientesDesertores_SelvaCentral.sql",
+      "ruta": "Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryCaliRCCClientesDesertores_SelvaCentral.sql",
+      "tamanio_bytes": 3417,
+      "keywords_detectadas": [
+        "cli",
+        "rcc",
+        "selva"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryCaliRCCClientesDesertores_LimaSur.sql",
+      "ruta": "Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryCaliRCCClientesDesertores_LimaSur.sql",
+      "tamanio_bytes": 6538,
+      "keywords_detectadas": [
+        "cli",
+        "rcc",
+        "sur"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryCaliRCCClientesDesertores_LimaNorte.sql",
+      "ruta": "Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryCaliRCCClientesDesertores_LimaNorte.sql",
+      "tamanio_bytes": 3353,
+      "keywords_detectadas": [
+        "cli",
+        "rcc",
+        "norte"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryCaliRCCClientesDesertores_Centro.sql",
+      "ruta": "Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryCaliRCCClientesDesertores_Centro.sql",
+      "tamanio_bytes": 3369,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Garantías",
+      "nombre": "SQLQueryGarantWS.sql",
+      "ruta": "Mayo2015/GarantiasWS/SQLQueryGarantWS.sql",
+      "tamanio_bytes": 5594,
+      "keywords_detectadas": [
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryTEM_JoseZurita.sql",
+      "ruta": "Mayo2015/TEM_JoseZurita/SQLQueryTEM_JoseZurita.sql",
+      "tamanio_bytes": 1083,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryDetGarantia.sql",
+      "ruta": "Mayo2015/HipotecariosWS/SQLQueryDetGarantia.sql",
+      "tamanio_bytes": 723,
+      "keywords_detectadas": [
+        "hipot",
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryGarantias.sql",
+      "ruta": "Mayo2015/HipotecariosWS/SQLQueryGarantias.sql",
+      "tamanio_bytes": 3215,
+      "keywords_detectadas": [
+        "hipot",
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryGarHistCred.sql",
+      "ruta": "Mayo2015/HipotecariosWS/SQLQueryGarHistCred.sql",
+      "tamanio_bytes": 4770,
+      "keywords_detectadas": [
+        "cred",
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryHipotecarioWS.sql",
+      "ruta": "Mayo2015/HipotecariosWS/SQLQueryHipotecarioWS.sql",
+      "tamanio_bytes": 8197,
+      "keywords_detectadas": [
+        "hipot"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Expedientes",
+      "nombre": "SQLQueryExperian.sql",
+      "ruta": "Mayo2015/BdPilotoEli/SQLQueryExperian.sql",
+      "tamanio_bytes": 3885,
+      "keywords_detectadas": [
+        "exp"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryRelacionAsesores.sql",
+      "ruta": "Mayo2015/OscarYance/SQLQueryRelacionAsesores.sql",
+      "tamanio_bytes": 1361,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Garantías",
+      "nombre": "SQL_GARANTIAS.sql",
+      "ruta": "Mayo2015/FernandoTI/Garantias/SQL_GARANTIAS.sql",
+      "tamanio_bytes": 5857,
+      "keywords_detectadas": [
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryAprobaciones.sql",
+      "ruta": "Mayo2015/JoseZurita/SQLQueryAprobaciones.sql",
+      "tamanio_bytes": 4269,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryPagosAnticipados.sql",
+      "ruta": "Mayo2015/JoseZurita/SQLQueryPagosAnticipados.sql",
+      "tamanio_bytes": 1220,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryAmpliaDetalle.sql",
+      "ruta": "Mayo2015/Ampliaciones/SQLQueryAmpliaDetalle.sql",
+      "tamanio_bytes": 10720,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryAmpliaciones.sql",
+      "ruta": "Mayo2015/Ampliaciones/SQLQueryAmpliaciones.sql",
+      "tamanio_bytes": 31598,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryAmpliaV00.sql",
+      "ruta": "Mayo2015/Ampliaciones/SQLQueryAmpliaV00.sql",
+      "tamanio_bytes": 14388,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQuerySPAmpliaV01.sql",
+      "ruta": "Mayo2015/Ampliaciones/SQLQuerySPAmpliaV01.sql",
+      "tamanio_bytes": 10289,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryFinalAmpliaciones.sql",
+      "ruta": "Mayo2015/Ampliaciones/SQLQueryFinalAmpliaciones.sql",
+      "tamanio_bytes": 8875,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Garantías",
+      "nombre": "SQLQuerySPGarantias.sql",
+      "ruta": "Mayo2015/PlazoFijoZurita/SQLQuerySPGarantias.sql",
+      "tamanio_bytes": 14681,
+      "keywords_detectadas": [
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Garantías",
+      "nombre": "SQLQueryGarPlazoFijo.sql",
+      "ruta": "Mayo2015/PlazoFijoZurita/SQLQueryGarPlazoFijo.sql",
+      "tamanio_bytes": 2868,
+      "keywords_detectadas": [
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Garantías",
+      "nombre": "SQLQueryGarPFDetalles.sql",
+      "ruta": "Mayo2015/PlazoFijoZurita/SQLQueryGarPFDetalles.sql",
+      "tamanio_bytes": 2337,
+      "keywords_detectadas": [
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Garantías",
+      "nombre": "SQLQueryGarPF.sql",
+      "ruta": "Mayo2015/PlazoFijoZurita/SQLQueryGarPF.sql",
+      "tamanio_bytes": 14874,
+      "keywords_detectadas": [
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryCRI.sql",
+      "ruta": "Mayo2015/CRICMAC_HYO/SQLQueryCRI.sql",
+      "tamanio_bytes": 854,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryEmpJulia.sql",
+      "ruta": "Mayo2015/SolEmpresaJulia/SQLQueryEmpJulia.sql",
+      "tamanio_bytes": 1048,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryBeliNoMinorista.sql",
+      "ruta": "Mayo2015/BelissaNoMinorista/SQLQueryBeliNoMinorista.sql",
+      "tamanio_bytes": 2715,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Otros",
+      "nombre": "SQLQueryResultado.sql",
+      "ruta": "Mayo2015/Belissa_3_Indicadores/RESULTADO/SQLQueryResultado.sql",
+      "tamanio_bytes": 1415,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Mayo",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryNewClientes.sql",
+      "ruta": "Mayo2015/Reporte Clientes Nuevos/SQLQueryNewClientes.sql",
+      "tamanio_bytes": 5085,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Expedientes",
+      "nombre": "SQLQueryExpNancy.sql",
+      "ruta": "Julio2015/NancyExpedientes/SQLQueryExpNancy.sql",
+      "tamanio_bytes": 2207,
+      "keywords_detectadas": [
+        "exp"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryCPCredCanc.sql",
+      "ruta": "Julio2015/CarlitosPurisCredCanc/SQLQueryCPCredCanc.sql",
+      "tamanio_bytes": 7963,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Otros",
+      "nombre": "QueryCri.sql",
+      "ruta": "Julio2015/CRICMACHYO_DIARIO/QueryCri.sql",
+      "tamanio_bytes": 1179,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCFBelaunde.sql",
+      "ruta": "Julio2015/CartaFianzaBelaunde/SQLQueryCFBelaunde.sql",
+      "tamanio_bytes": 3397,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Cartera",
+      "nombre": "QueryCFAUI.sql",
+      "ruta": "Julio2015/CartasFianzasUAI/QueryCFAUI.sql",
+      "tamanio_bytes": 7632,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Cartera",
+      "nombre": "QueryGarantiaCF.sql",
+      "ruta": "Julio2015/CartasFianzasUAI/GarantiasCartaFianza/QueryGarantiaCF.sql",
+      "tamanio_bytes": 2261,
+      "keywords_detectadas": [
+        "cart",
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "QueryCredHipViv.sql",
+      "ruta": "Julio2015/CredHipoteMiViv/QueryCredHipViv.sql",
+      "tamanio_bytes": 2482,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "CredCampQuery.sql",
+      "ruta": "Julio2015/CreditosCampanias/CredCampQuery.sql",
+      "tamanio_bytes": 2711,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCSJL.sql",
+      "ruta": "Julio2015/CarteraSanJuanLurigancho/SQLQueryCSJL.sql",
+      "tamanio_bytes": 2405,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Otros",
+      "nombre": "QueryAccRepre.sql",
+      "ruta": "Julio2015/AccioRepre/QueryAccRepre.sql",
+      "tamanio_bytes": 1406,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCartAgCaniete.sql",
+      "ruta": "Julio2015/CarteraAgCaniete/SQLQueryCartAgCaniete.sql",
+      "tamanio_bytes": 3793,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Cartera",
+      "nombre": "QueryGarantiaCFRango.sql",
+      "ruta": "Julio2015/CartasFianzasRango/QueryGarantiaCFRango.sql",
+      "tamanio_bytes": 10939,
+      "keywords_detectadas": [
+        "cart",
+        "gar"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "QueryCredUnicuotas.sql",
+      "ruta": "Julio2015/CreditosUnicuota/QueryCredUnicuotas.sql",
+      "tamanio_bytes": 3664,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Cartera",
+      "nombre": "QueryCarteraCesados.sql",
+      "ruta": "Julio2015/CarteraCesadosSusan/QueryCarteraCesados.sql",
+      "tamanio_bytes": 5368,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Otros",
+      "nombre": "SQLQueryPuntajeV02.sql",
+      "ruta": "Julio2015/NotasAsesores/SQLQueryPuntajeV02.sql",
+      "tamanio_bytes": 8297,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "QueryCredEmpr.sql",
+      "ruta": "Julio2015/CredEmpresarialesWS/QueryCredEmpr.sql",
+      "tamanio_bytes": 2545,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryNewCliDesertores.sql",
+      "ruta": "Julio2015/NewClientesDesertores/SQLQueryNewCliDesertores.sql",
+      "tamanio_bytes": 20839,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryCaliRCC.sql",
+      "ruta": "Julio2015/NewClientesDesertores/SQLQueryCaliRCC.sql",
+      "tamanio_bytes": 3760,
+      "keywords_detectadas": [
+        "cli",
+        "rcc"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Clientes",
+      "nombre": "SQLQueryNewCliDesLocal.sql",
+      "ruta": "Julio2015/NewClientesDesertores/SQLQueryNewCliDesLocal.sql",
+      "tamanio_bytes": 4740,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCartJunio2015.sql",
+      "ruta": "Julio2015/CartJunio2015SusanAmbrosio/SQLQueryCartJunio2015.sql",
+      "tamanio_bytes": 6368,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "QueryCredHipDosAnios.sql",
+      "ruta": "Julio2015/CredHipo2Anios/QueryCredHipDosAnios.sql",
+      "tamanio_bytes": 5174,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Otros",
+      "nombre": "SQLQueryFinalAmp2Ent.sql",
+      "ruta": "Julio2015/Ampliaciones2Entidades/SQLQueryFinalAmp2Ent.sql",
+      "tamanio_bytes": 13111,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "QueryCredHipoWS.sql",
+      "ruta": "Julio2015/CredHipotecariosWS/QueryCredHipoWS.sql",
+      "tamanio_bytes": 14538,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCOCarVigJud.sql",
+      "ruta": "Julio2015/CentroOrienteCartVigJud/SQLQueryCOCarVigJud.sql",
+      "tamanio_bytes": 5324,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCOCarTVigJud.sql",
+      "ruta": "Julio2015/CentroOrienteCartVigJud/SQLQueryCOCarTVigJud.sql",
+      "tamanio_bytes": 3040,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Cartera",
+      "nombre": "SQLQueryCarteraAsesoresJulita.sql",
+      "ruta": "Julio2015/CarteraAsesoresJulita/SQLQueryCarteraAsesoresJulita.sql",
+      "tamanio_bytes": 7476,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Junio",
+      "categoria": "Créditos",
+      "nombre": "QueryDesembEneJunio2015.sql",
+      "ruta": "Julio2015/DesembolsosCPuris/QueryDesembEneJunio2015.sql",
+      "tamanio_bytes": 7611,
+      "keywords_detectadas": [
+        "desemb"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "QueryCredDesemExcepSusan.sql",
+      "ruta": "Julio2015/SusanExcepciones/QueryCredDesemExcepSusan.sql",
+      "tamanio_bytes": 9881,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Otros",
+      "nombre": "QueryDetalleExcep.sql",
+      "ruta": "Julio2015/SusanExcepciones/QueryDetalleExcep.sql",
+      "tamanio_bytes": 5134,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryCred_Desem_Excep_SraEli.sql",
+      "ruta": "Julio2015/SusanExcepciones/SQLQueryCred_Desem_Excep_SraEli.sql",
+      "tamanio_bytes": 9252,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryCred_Desem_Excep_Belissa.sql",
+      "ruta": "Julio2015/SusanExcepciones/SQLQueryCred_Desem_Excep_Belissa.sql",
+      "tamanio_bytes": 11635,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Créditos",
+      "nombre": "SQLQueryCred_Desem_Excep_original.sql",
+      "ruta": "Julio2015/SusanExcepciones/SQLQueryCred_Desem_Excep_original.sql",
+      "tamanio_bytes": 9123,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Expedientes",
+      "nombre": "QueryExpAgHuanta.sql",
+      "ruta": "Septiembre2015/ExpedHuantaWCapcha/QueryExpAgHuanta.sql",
+      "tamanio_bytes": 3139,
+      "keywords_detectadas": [
+        "exp"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Créditos",
+      "nombre": "QueryEvoAgri.sql",
+      "ruta": "Septiembre2015/EvolucionCredAgricolas/QueryEvoAgri.sql",
+      "tamanio_bytes": 297,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Expedientes",
+      "nombre": "QueryExpend.sql",
+      "ruta": "Septiembre2015/ExpedContabilidad/QueryExpend.sql",
+      "tamanio_bytes": 1349,
+      "keywords_detectadas": [
+        "exp"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Créditos",
+      "nombre": "QueryCredVinCol.sql",
+      "ruta": "Septiembre2015/CredVinColab/QueryCredVinCol.sql",
+      "tamanio_bytes": 4846,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Cartera",
+      "nombre": "QueryCartHuachipa.sql",
+      "ruta": "Septiembre2015/CarteraHuachipa/QueryCartHuachipa.sql",
+      "tamanio_bytes": 5789,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Otros",
+      "nombre": "QueryAsesorCesado.sql",
+      "ruta": "Septiembre2015/AsesoresCesados/QueryAsesorCesado.sql",
+      "tamanio_bytes": 4793,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Otros",
+      "nombre": "QueryPuntajeNotaAsesores.sql",
+      "ruta": "Septiembre2015/NotasPuntajesAsesores/EDipasJRegional/QueryPuntajeNotaAsesores.sql",
+      "tamanio_bytes": 8306,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Análisis Geográfico",
+      "nombre": "SQLQueryPuntaje.sql",
+      "ruta": "Septiembre2015/NotasPuntajesAsesores/LimaNortePuntajeAnalistas/SQLQueryPuntaje.sql",
+      "tamanio_bytes": 2790,
+      "keywords_detectadas": [
+        "norte"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Otros",
+      "nombre": "LlenadoQueryCP.sql",
+      "ruta": "Septiembre2015/LlenadoCarlosPuris/LlenadoQueryCP.sql",
+      "tamanio_bytes": 4624,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Clientes",
+      "nombre": "QueryCI.sql",
+      "ruta": "Septiembre2015/ClientesIdentificar/QueryCI.sql",
+      "tamanio_bytes": 4517,
+      "keywords_detectadas": [
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Julio",
+      "categoria": "Expedientes",
+      "nombre": "QueryExpAgTarma.sql",
+      "ruta": "Septiembre2015/ExpJuanJulioSet2015/QueryExpAgTarma.sql",
+      "tamanio_bytes": 2314,
+      "keywords_detectadas": [
+        "exp"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Otros",
+      "nombre": "QueryAgJoyas.sql",
+      "ruta": "Septiembre2015/AgJoyas/QueryAgJoyas.sql",
+      "tamanio_bytes": 2373,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Otros",
+      "nombre": "QueryRatioMora.sql",
+      "ruta": "Septiembre2015/RatiosMora/QueryRatioMora.sql",
+      "tamanio_bytes": 8910,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Cartera",
+      "nombre": "QueryAnexChosica.sql",
+      "ruta": "Septiembre2015/CartAnexosChosica/QueryAnexChosica.sql",
+      "tamanio_bytes": 4005,
+      "keywords_detectadas": [
+        "cart",
+        "anexo"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Otros",
+      "nombre": "QueryAE.sql",
+      "ruta": "Septiembre2015/LlenadoAuditoriaExterna/QueryAE.sql",
+      "tamanio_bytes": 8726,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Otros",
+      "nombre": "QueryMirellitaCF.sql",
+      "ruta": "Septiembre2015/CFMirellita/QueryMirellitaCF.sql",
+      "tamanio_bytes": 11258,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Morosidad",
+      "nombre": "QueryTramosvencido.sql",
+      "ruta": "Septiembre2015/TramosVencido/QueryTramosvencido.sql",
+      "tamanio_bytes": 3401,
+      "keywords_detectadas": [
+        "vencido"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Cartera",
+      "nombre": "QueryCredAprobCF.sql",
+      "ruta": "Septiembre2015/RangoAprobCartaFianza/QueryCredAprobCF.sql",
+      "tamanio_bytes": 7720,
+      "keywords_detectadas": [
+        "cart",
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Cartera",
+      "nombre": "CredAprobCF_Testing.sql",
+      "ruta": "Septiembre2015/RangoAprobCartaFianza/CredAprobCF_Testing.sql",
+      "tamanio_bytes": 4093,
+      "keywords_detectadas": [
+        "cart",
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Cartera",
+      "nombre": "CredAprobCFxMontos.sql",
+      "ruta": "Septiembre2015/RangoAprobCartaFianza/xNivelesyMontos/CredAprobCFxMontos.sql",
+      "tamanio_bytes": 9029,
+      "keywords_detectadas": [
+        "cart",
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Análisis Financiero",
+      "nombre": "QueryEEFF.sql",
+      "ruta": "Septiembre2015/EEFF/QueryEEFF.sql",
+      "tamanio_bytes": 11692,
+      "keywords_detectadas": [
+        "eeff"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Otros",
+      "nombre": "QueryPotNoMino.sql",
+      "ruta": "Septiembre2015/PotNoMinoristas/QueryPotNoMino.sql",
+      "tamanio_bytes": 6072,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Cartera",
+      "nombre": "QueryCartEquili.sql",
+      "ruta": "Septiembre2015/CarlitosEquili/QueryCartEquili.sql",
+      "tamanio_bytes": 2222,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Créditos",
+      "nombre": "QueryCPurisDesembolso.sql",
+      "ruta": "Septiembre2015/CPurisDesembolso/QueryCPurisDesembolso.sql",
+      "tamanio_bytes": 13339,
+      "keywords_detectadas": [
+        "desemb"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Cartera",
+      "nombre": "QueryCFxRegiones.sql",
+      "ruta": "Septiembre2015/CartafianzaxRegiones/QueryCFxRegiones.sql",
+      "tamanio_bytes": 11158,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Otros",
+      "nombre": "QueryOsiAgJauja.sql",
+      "ruta": "Septiembre2015/OSI/QueryOsiAgJauja.sql",
+      "tamanio_bytes": 17119,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Otros",
+      "nombre": "QueryOsiConsolidadoDic2014.sql",
+      "ruta": "Septiembre2015/OSI/OSIConsolidado/QueryOsiConsolidadoDic2014.sql",
+      "tamanio_bytes": 11606,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Septiembre",
+      "categoria": "Otros",
+      "nombre": "QueryOsiConsolidadoAgo2015.sql",
+      "ruta": "Septiembre2015/OSI/OSIConsolidado/QueryOsiConsolidadoAgo2015.sql",
+      "tamanio_bytes": 10804,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Créditos",
+      "nombre": "QueryCredAsesor.sql",
+      "ruta": "Octubre2015/CredAsesores/QueryCredAsesor.sql",
+      "tamanio_bytes": 5474,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Morosidad",
+      "nombre": "QueryTramosMorosidad.sql",
+      "ruta": "Octubre2015/Morosidad/QueryTramosMorosidad.sql",
+      "tamanio_bytes": 5625,
+      "keywords_detectadas": [
+        "moro"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Créditos",
+      "nombre": "QueryCPurisDesembolso_Sep2015.sql",
+      "ruta": "Octubre2015/CPurisDesembolso_Sep2015/QueryCPurisDesembolso_Sep2015.sql",
+      "tamanio_bytes": 13350,
+      "keywords_detectadas": [
+        "desemb"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Cartera",
+      "nombre": "CartaFianza_CPuris.sql",
+      "ruta": "Octubre2015/CarlosPuris_CartaFianza/CartaFianza_CPuris.sql",
+      "tamanio_bytes": 14274,
+      "keywords_detectadas": [
+        "cart"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Análisis Geográfico",
+      "nombre": "QueryDistrito.sql",
+      "ruta": "Octubre2015/OscarYanceJulia/QueryDistrito.sql",
+      "tamanio_bytes": 5641,
+      "keywords_detectadas": [
+        "distrito"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Créditos",
+      "nombre": "QueryCredEmprCofide.sql",
+      "ruta": "Octubre2015/CredCofide_BellisaJulia/QueryCredEmprCofide.sql",
+      "tamanio_bytes": 84253,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Créditos",
+      "nombre": "QueryProvisiones.sql",
+      "ruta": "Octubre2015/CredCofide_BellisaJulia/QueryProvisiones.sql",
+      "tamanio_bytes": 60286,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Créditos",
+      "nombre": "QueryBellisaCofide.sql",
+      "ruta": "Octubre2015/CredCofide_BellisaJulia/QueryBellisaCofide.sql",
+      "tamanio_bytes": 1171,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Créditos",
+      "nombre": "QueryBDCredNoMino.sql",
+      "ruta": "Octubre2015/BDCredNoMinoJQ/QueryBDCredNoMino.sql",
+      "tamanio_bytes": 6305,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Créditos",
+      "nombre": "QueryCredCTS.sql",
+      "ruta": "Octubre2015/CredCTS/QueryCredCTS.sql",
+      "tamanio_bytes": 4227,
+      "keywords_detectadas": [
+        "cred"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Promotor Inmobiliario",
+      "nombre": "QueryFeriaInmobiliaria.sql",
+      "ruta": "Octubre2015/FeriaInmobiliaria/QueryFeriaInmobiliaria.sql",
+      "tamanio_bytes": 29398,
+      "keywords_detectadas": [
+        "inmobi"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Promotor Inmobiliario",
+      "nombre": "QueryPromotor.sql",
+      "ruta": "Octubre2015/PromotorInmo/QueryPromotor.sql",
+      "tamanio_bytes": 3023,
+      "keywords_detectadas": [
+        "promotor"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Otros",
+      "nombre": "QueryLagoVerde.sql",
+      "ruta": "Octubre2015/WsLagoVerde/QueryLagoVerde.sql",
+      "tamanio_bytes": 6213,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Créditos",
+      "nombre": "cliNuevos_Creditos.sql",
+      "ruta": "Octubre2015/Clientes/cliNuevos_Creditos.sql",
+      "tamanio_bytes": 3573,
+      "keywords_detectadas": [
+        "cred",
+        "cli"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Créditos",
+      "nombre": "QueryControlDesemb.sql",
+      "ruta": "Octubre2015/ControlDesembSusanAmbrosio/QueryControlDesemb.sql",
+      "tamanio_bytes": 6468,
+      "keywords_detectadas": [
+        "desemb"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Expedientes",
+      "nombre": "QueryExpNancy.sql",
+      "ruta": "Octubre2015/ExpNancy/QueryExpNancy.sql",
+      "tamanio_bytes": 1067,
+      "keywords_detectadas": [
+        "exp"
+      ]
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Otros",
+      "nombre": "QueryAmpliaJQ.sql",
+      "ruta": "Octubre2015/Ampliaciones/QueryAmpliaJQ.sql",
+      "tamanio_bytes": 17838,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Otros",
+      "nombre": "SQLQueryFinalAmpliaciones_Original.sql",
+      "ruta": "Octubre2015/Ampliaciones/SQLQueryFinalAmpliaciones_Original.sql",
+      "tamanio_bytes": 13111,
+      "keywords_detectadas": []
+    },
+    {
+      "repositorio": "2015",
+      "anio": "2015",
+      "mes": "Octubre",
+      "categoria": "Créditos",
+      "nombre": "QueryCrediCasaTipIng.sql",
+      "ruta": "Octubre2015/CrediCasa/QueryCrediCasaTipIng.sql",
+      "tamanio_bytes": 6631,
+      "keywords_detectadas": [
+        "cred",
+        "credicasa"
+      ]
+    }
+  ]
+}

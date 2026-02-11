@@ -1,0 +1,260 @@
+Repositorio/Año,Mes,Categoría,Nombre del archivo,Ruta completa,Tamaño del archivo (bytes),Palabras clave detectadas
+2015,Noviembre,Créditos,QueryCreditosEmpresariales.sql,Noviembre2015/Julita/QueryCreditosEmpresariales.sql,9423,cred
+2015,Noviembre,RCC,CalificacionUriesgos.sql,Noviembre2015/Julita/CalificacionUriesgos.sql,394107,riesgo
+2015,Noviembre,Créditos,QueryDesembolsosMes.sql,Noviembre2015/CPurisDesembolso_Oct2015/QueryDesembolsosMes.sql,10409,desemb
+2015,Noviembre,Créditos,QueryCredUnicuotas_al30092015.sql,Noviembre2015/CredUniCuotas/QueryCredUnicuotas_al30092015.sql,10786,cred
+2015,Noviembre,Cartera,QueryCartSelva.sql,Noviembre2015/CarteraAgSelva/QueryCartSelva.sql,6093,"cart, selva"
+2015,Noviembre,Análisis Geográfico,QueryAmpliaLimaNorte.sql,Noviembre2015/AmpliacionesLimaNorte/QueryAmpliaLimaNorte.sql,21099,norte
+2015,Noviembre,Créditos,QueryHipotecarios.sql,Noviembre2015/CredHipotDesemdesde2010/QueryHipotecarios.sql,5153,cred
+2015,Noviembre,Otros,Query.sql,Noviembre2015/CalificacionSraEli/Query.sql,658,
+2015,Noviembre,Reportes SBS,QueryAnexoSBS.sql,Noviembre2015/AnexoSBS/QueryAnexoSBS.sql,1446,sbs
+2015,Noviembre,Análisis Financiero,QueryEEFF.sql,Noviembre2015/EEFFNoMinorista/QueryEEFF.sql,7073,eeff
+2015,Noviembre,Otros,QueryLircay.sql,Noviembre2015/Dennis_Lircay/QueryLircay.sql,9664,
+2015,Noviembre,Otros,Query_DiasGracias.sql,Noviembre2015/DiasGraciaJulita/Query_DiasGracias.sql,3173,
+2015,Noviembre,Reportes SBS,Query.sql,Noviembre2015/Sentinel/Query.sql,270,sentinel
+2015,Noviembre,Clientes,QueryAgencias.sql,Noviembre2015/ClientesCompartidos/CantClientes_GPI/QueryAgencias.sql,413,"cli, agencia"
+2015,Noviembre,Clientes,QueryRCC_Espejo.sql,Noviembre2015/ClientesCompartidos/CantClientes_GPI/QueryRCC_Espejo.sql,264,"cli, rcc"
+2015,Noviembre,Clientes,QueryCantCliRCC_v02.sql,Noviembre2015/ClientesCompartidos/CantClientes_GPI/QueryCantCliRCC_v02.sql,16193,"cli, rcc"
+2015,Noviembre,Clientes,ExtraeNumeroClientesExclusivosCompartidosporAgencia.sql,Noviembre2015/ClientesCompartidos/CantClientes_GPI/ExtraeNumeroClientesExclusivosCompartidosporAgencia.sql,5755,"cli, agencia"
+2015,Noviembre,Clientes,QueryCantCliRCC_v03.sql,Noviembre2015/ClientesCompartidos/CantClientes_GPI/QueryCantCliRCC_v03.sql,28717,"cli, rcc"
+2015,Noviembre,Clientes,QueryClientesCompartidos.sql,Noviembre2015/ClientesCompartidos/CantClientes_GPI/QueryClientesCompartidos.sql,9765,cli
+2015,Noviembre,Cartera,QueryCarteraActEconoV01.sql,Noviembre2015/CarteraActEcono/QueryCarteraActEconoV01.sql,3750,cart
+2015,Noviembre,Créditos,QueryCredPlazoFijo.sql,Noviembre2015/CredPlazoFijo/QueryCredPlazoFijo.sql,2904,cred
+2015,Noviembre,Otros,QueryRakingAsesores.sql,Noviembre2015/RankingAsesores/QueryRakingAsesores.sql,8699,
+2015,Noviembre,Otros,QueryDataClass.sql,Noviembre2015/DataClass/QueryDataClass.sql,10498,
+2015,Noviembre,Otros,QueryDataProductos.sql,Noviembre2015/DataProductos_JuandDios/QueryDataProductos.sql,6982,
+2015,Noviembre,Créditos,QueryCrediCasaHan.sql,Noviembre2015/CrediCasaHabitacional/QueryCrediCasaHan.sql,3718,"cred, credicasa"
+2015,Diciembre,Créditos,QueryCreditosHipotecarios.sql,Diciembre2015/CreditosHipotecarios/QueryCreditosHipotecarios.sql,4841,cred
+2015,Diciembre,Otros,QueryFinanzasDataHistorica.sql,Diciembre2015/FinanzasDataHistorica/QueryFinanzasDataHistorica.sql,4602,
+2015,Diciembre,Otros,QueryFinanzasDataHistoricaV01.sql,Diciembre2015/FinanzasDataHistorica/QueryFinanzasDataHistoricaV01.sql,2024,
+2015,Diciembre,Análisis Geográfico,QueryGestionSaldoxAgencia.sql,Diciembre2015/GestionSaldosxAgencia/QueryGestionSaldoxAgencia.sql,9602,agencia
+2015,Diciembre,Otros,QueryMiVivienda.sql,Diciembre2015/MiVivienda/QueryMiVivienda.sql,6346,
+2015,Diciembre,Otros,SQLTablaTemporal.sql,Diciembre2015/TablaTemporal/SQLTablaTemporal.sql,4222,
+2015,Diciembre,Otros,QueryLlenado.sql,Diciembre2015/JoseZuritaLlenado/QueryLlenado.sql,536,
+2015,Diciembre,Créditos,CrediEcologicoQuery.sql,Diciembre2015/CrediEcologico/CrediEcologicoQuery.sql,7038,cred
+2015,Diciembre,Créditos,02_SP.sql,Diciembre2015/CrediEcologico/02_SP.sql,137358,cred
+2015,Diciembre,Cartera,TraslaCartQuery.sql,Diciembre2015/TrasladoCartera/TraslaCartQuery.sql,7826,cart
+2015,Diciembre,Cartera,QueryCartera.sql,Diciembre2015/CarteraEvita/QueryCartera.sql,5640,cart
+2015,Diciembre,Clientes,CentroOrienteEndeuQuery.sql,Diciembre2015/CentroOrienteCliEndeu/CentroOrienteEndeuQuery.sql,4726,cli
+2015,Diciembre,Otros,QueryAmpliacion.sql,Diciembre2015/AmpliacionesSusan/QueryAmpliacion.sql,18491,
+2015,Diciembre,Créditos,QueryDesembolsosMes.sql,Diciembre2015/CPurisDesembolso_Nov2015/QueryDesembolsosMes.sql,10406,desemb
+2015,Diciembre,Créditos,QueryCreditosVencidos.sql,Diciembre2015/CreditosVencido/QueryCreditosVencidos.sql,4243,"cred, vencido"
+2015,Diciembre,Análisis Geográfico,QueryComiteDetallado.sql,Diciembre2015/LimaSurComites/ComitesDetallados/QueryComiteDetallado.sql,6002,sur
+2015,Diciembre,Análisis Geográfico,QueryLimaSurComites.sql,Diciembre2015/LimaSurComites/Consolidado/QueryLimaSurComites.sql,6020,sur
+2015,Julio,Expedientes,QueryExpJJ.sql,Diciembre2015/ExpedientesJuanJulio/QueryExpJJ.sql,1072,exp
+2015,Agosto,Créditos,QueryCredConsumo.sql,Agosto2015/JoseZuritaCredConsumo/QueryCredConsumo.sql,7154,cred
+2015,Agosto,Otros,QuerySol.sql,Agosto2015/Sol/QuerySol.sql,760,
+2015,Agosto,Créditos,QueryCredGarPlazoFijo.sql,Agosto2015/JZuritaPlazoFijo/QueryCredGarPlazoFijo.sql,5486,"cred, gar"
+2015,Agosto,Otros,QueryBL.sql,Agosto2015/CasoBelaundeLossio/QueryBL.sql,7084,
+2015,Agosto,Garantías,QueryGarantPropi.sql,Agosto2015/PropietarioGarantias/QueryGarantPropi.sql,1034,gar
+2015,Agosto,Créditos,QueryDesembolsos.sql,Agosto2015/CredDesembCPuris/QueryDesembolsos.sql,1809,cred
+2015,Julio,Expedientes,QueryExpedienteAgSanFrancisco.sql,Agosto2015/ExpJuanJulio/QueryExpedienteAgSanFrancisco.sql,2424,exp
+2015,Agosto,Cartera,QueryCFRango.sql,Agosto2015/CartasFianzasJefRegional/QueryCFRango.sql,11328,cart
+2015,Agosto,Créditos,QueryCredAprobAdm.sql,Agosto2015/CredAprobAdm/QueryCredAprobAdm.sql,5523,cred
+2015,Agosto,Créditos,QueryCreModalidad.sql,Agosto2015/BelissaCreditoModalidad/QueryCreModalidad.sql,5390,cred
+2015,Agosto,Otros,QueryAval.sql,Agosto2015/Aval/QueryAval.sql,1150,
+2015,Julio,Créditos,QueryCredHipoWS.sql,Agosto2015/CredHipJulio2015/QueryCredHipoWS.sql,18281,cred
+2015,Agosto,Créditos,QueryCredEmpresariales.sql,Agosto2015/CredEmpresarialesBellisaJuandDios/QueryCredEmpresariales.sql,9306,cred
+2015,Agosto,Análisis Geográfico,QueryZonaAgencia.sql,Agosto2015/AgenciasZona/QueryZonaAgencia.sql,1461,zona
+2015,Agosto,Morosidad,QueryTramosvencido.sql,Agosto2015/TramosVencido/QueryTramosvencido.sql,3399,vencido
+2015,Agosto,Otros,QueryPromedioDiasMora.sql,Agosto2015/PromedioDiasMora/QueryPromedioDiasMora.sql,706,
+2015,Agosto,Otros,QuerySextorTransporte.sql,Agosto2015/JoseZurita/QuerySextorTransporte.sql,13490,
+2015,Agosto,Otros,QueryCompletarCampos.sql,Agosto2015/BelissaCompletarCampos/QueryCompletarCampos.sql,6894,
+2015,Agosto,Otros,QueryGenmKardex.sql,Agosto2015/BelissaCompletarCampos/QueryGenmKardex.sql,21559,
+2015,Agosto,Clientes,QueryEEFF.sql,Agosto2015/EEFFClientsNoMinoristas/QueryEEFF.sql,7065,"cli, eeff"
+2015,Agosto,Otros,JefeQueryRegional.sql,Agosto2015/AprobacionJefesRegionales/JefeQueryRegional.sql,5406,
+2015,Agosto,Créditos,QueryCredJR.sql,Agosto2015/CredOtorgJR/QueryCredJR.sql,4160,cred
+2015,Agosto,Cartera,QueryCartNoMinorista.sql,Agosto2015/JuandeDiosCarteraNoMinorista/QueryCartNoMinorista.sql,9073,cart
+2015,Agosto,Otros,QueryAdmDirecJZurita.sql,Agosto2015/AdmDirectoresJoseZurita/QueryAdmDirecJZurita.sql,3408,
+2015,Agosto,Otros,QueryTargentCampaña.sql,Agosto2015/JuandDios/QueryTargentCampaña.sql,690,
+2015,Junio,Créditos,SQLQueryHipotW.sql,Junio2015/WilliamHipotecarios/SQLQueryHipotW.sql,6994,hipot
+2015,Junio,Cartera,SQLQueryDetalleCartaFianza.sql,Junio2015/CartasFianzaJuandDios/SQLQueryDetalleCartaFianza.sql,3867,cart
+2015,Junio,Cartera,SQLQueryCartaFianza.sql,Junio2015/CartasFianzaJuandDios/SQLQueryCartaFianza.sql,11333,cart
+2015,Junio,Cartera,SQLQueryUpdateCartafianza.sql,Junio2015/CartasFianzaJuandDios/SQLQueryUpdateCartafianza.sql,3704,cart
+2015,Junio,Cartera,SQLQueryCartAnalista.sql,Junio2015/CarteraAnalista/SQLQueryCartAnalista.sql,3523,cart
+2015,Junio,Otros,SQLQueryPuntaje.sql,Junio2015/PuntajeAnalistas/SQLQueryPuntaje.sql,2784,
+2015,Junio,Otros,SQLQueryJoyasAdjXMes.sql,Junio2015/JoyasAdjundicadasXMes/SQLQueryJoyasAdjXMes.sql,6351,
+2015,Junio,Otros,SQLQueryBusqueda.sql,Junio2015/BelissaBusqueda/SQLQueryBusqueda.sql,3432,
+2015,Junio,Reportes SBS,SQLQueryCarlosProdSBS.sql,Junio2015/CarlitosProdSBS/SQLQueryCarlosProdSBS.sql,879,sbs
+2015,Junio,Otros,SQLQueryListaAsesores.sql,Junio2015/ListaAsesores/SQLQueryListaAsesores.sql,3374,
+2015,Junio,Otros,SQLQueryDirecciones.sql,Junio2015/DireccNegDomiciCarlitos/SQLQueryDirecciones.sql,2846,
+2015,Junio,Cartera,SQLQueryCartNoMinorista.sql,Junio2015/CarteraNoMinoristas/SQLQueryCartNoMinorista.sql,7886,cart
+2015,Junio,Otros,SQLQueryAvanceMetas.sql,Junio2015/AvanceMetas/SQLQueryAvanceMetas.sql,7840,
+2015,Junio,Expedientes,SQLQueryMkt.sql,Junio2015/SusanExpirianPilotoMKT/SQLQueryMkt.sql,5295,exp
+2015,Junio,Otros,SQLQueryParametros.sql,Junio2015/VisualizarSP/SQLQueryParametros.sql,587,
+2015,Junio,Otros,SQLQuerySusanAsesor.sql,Junio2015/SussanAsesor/SQLQuerySusanAsesor.sql,2758,
+2015,Junio,Cartera,SQLQueryAprobCartFianza.sql,Junio2015/AprobacionCartaFianza/SQLQueryAprobCartFianza.sql,3279,cart
+2015,Junio,Créditos,SQLQueryCredUnicuotas.sql,Junio2015/UniCoutas/SQLQueryCredUnicuotas.sql,621,cred
+2015,Abril,Reportes SBS,SQLQueryNumEntSbs.sql,Abril2015/NumEntSbs/SQLQueryNumEntSbs.sql,1576,sbs
+2015,Abril,Otros,SQLQuery_BN.sql,Abril2015/Banco_Nacion/SQLQuery_BN.sql,901,
+2015,Abril,Otros,SQLQuery_BN_Det.sql,Abril2015/Banco_Nacion/SQLQuery_BN_Det.sql,11142,
+2015,Abril,Otros,SQLQueryWS.sql,Abril2015/WS_/SQLQueryWS.sql,8263,
+2015,Abril,Otros,SQLQueryEstadoAnalistas.sql,Abril2015/OscarYance/SQLQueryEstadoAnalistas.sql,377,
+2015,Abril,Cartera,SQLQueryCalRCC.sql,Abril2015/CarteraChincha/SQLQueryCalRCC.sql,12770,"cart, rcc"
+2015,Abril,Cartera,SQLQueryCarteraChincha_Det.sql,Abril2015/CarteraChincha/SQLQueryCarteraChincha_Det.sql,5234,cart
+2015,Abril,Cartera,SQLQueryCarteraChincha.sql,Abril2015/CarteraChincha/SQLQueryCarteraChincha.sql,13067,cart
+2015,Abril,Créditos,SQLQueryConsolidado_x_tipo_credito.sql,Abril2015/Consolidado_x_Tipo_Credito/SQLQueryConsolidado_x_tipo_credito.sql,5060,cred
+2015,Abril,Clientes,SQLQuery_Dario.sql,Abril2015/Clientes RCC/SQLQuery_Dario.sql,961,"cli, rcc"
+2015,Abril,Clientes,SQLQueryClientesRCC.sql,Abril2015/Clientes RCC/SQLQueryClientesRCC.sql,4404,"cli, rcc"
+2015,Abril,Clientes,SQLQueryClientesCajaRCC_v01.sql,Abril2015/Clientes RCC/SQLQueryClientesCajaRCC_v01.sql,16027,"cli, rcc"
+2015,Abril,Clientes,SQLQueryClientesCajaRCC_v03.sql,Abril2015/Clientes RCC/SQLQueryClientesCajaRCC_v03.sql,6214,"cli, rcc"
+2015,Abril,Clientes,SQLQueryClientesCajaRCC_v02.sql,Abril2015/Clientes RCC/SQLQueryClientesCajaRCC_v02.sql,4665,"cli, rcc"
+2015,Abril,Clientes,SQLQueryClientesCajaRCC.sql,Abril2015/Clientes RCC/SQLQueryClientesCajaRCC.sql,369,"cli, rcc"
+2015,Abril,Clientes,SQLQueryClientesSoloCHYO.sql,Abril2015/Clientes RCC/SQLQueryClientesSoloCHYO.sql,13422,"cli, rcc"
+2015,Abril,Clientes,SQLQueryTotalClientesCaja_v01.sql,Abril2015/Clientes RCC/SQLQueryTotalClientesCaja_v01.sql,2500,"cli, rcc"
+2015,Abril,Clientes,SQLQueryClientesCajaRCC_v02_Det.sql,Abril2015/Clientes RCC/SQLQueryClientesCajaRCC_v02_Det.sql,12177,"cli, rcc"
+2015,Abril,Clientes,SQLQueryTotalClie_OnLine.sql,Abril2015/TotaldeClientes/SQLQueryTotalClie_OnLine.sql,1553,cli
+2015,Abril,Clientes,SQLQueryTotalClientesCaja_v01.sql,Abril2015/TotaldeClientes/SQLQueryTotalClientesCaja_v01.sql,1444,cli
+2015,Abril,Clientes,SQLQueryClienteDesertores_V01.sql,Abril2015/ClientesDesertores/SQLQueryClienteDesertores_V01.sql,36838,cli
+2015,Abril,Clientes,SQLQueryCliDes_CreCursor.sql,Abril2015/ClientesDesertores/SQLQueryCliDes_CreCursor.sql,120,cli
+2015,Abril,Clientes,SQLQueryCliDesertores.sql,Abril2015/ClientesDesertores/SQLQueryCliDesertores.sql,9666,cli
+2015,Abril,Clientes,SQLQueryAgenciasxZona.sql,Abril2015/ClientesDesertores/SQLQueryAgenciasxZona.sql,1332,"cli, zona"
+2015,Abril,Clientes,SQLQuery_PlandPagos.sql,Abril2015/ClientesDesertores/SQLQuery_PlandPagos.sql,721,cli
+2015,Abril,Clientes,SQLQueryBorradorCliDese.sql,Abril2015/ClientesDesertores/SQLQueryBorradorCliDese.sql,590,cli
+2015,Abril,Clientes,SQLQueryClienteDesertores.sql,Abril2015/ClientesDesertores/SQLQueryClienteDesertores.sql,6115,cli
+2015,Abril,Clientes,SQLQueryClienteDesertores_V02.sql,Abril2015/ClientesDesertores/SQLQueryClienteDesertores_V02.sql,39931,cli
+2015,Abril,Clientes,SQLQueryClienteDesertores_V02_Det.sql,Abril2015/ClientesDesertores/SQLQueryClienteDesertores_V02_Det.sql,4614,cli
+2015,Marzo,Otros,SQLQueryAnalistasEstado.sql,Marzo2015/Carlos/SQLQueryAnalistasEstado.sql,1537,
+2015,Marzo,Clientes,SQLQuery_ClientesNuevos.sql,Marzo2015/ClientesNuevos/SQLQuery_ClientesNuevos.sql,6480,cli
+2015,Mayo,Otros,SQLQuerygp.sql,Mayo2015/CarlosPuris/SQLQuerygp.sql,2239,
+2015,Mayo,Otros,SQLQueryConve_Canc_Huacho.sql,Mayo2015/Convenios_Cancelados_Huacho/SQLQueryConve_Canc_Huacho.sql,7034,
+2015,Mayo,Otros,SQLQueryLista.sql,Mayo2015/ListaCarlitos22/SQLQueryLista.sql,2252,
+2015,Mayo,Créditos,SQLQueryCred_Desem_Excep_SraEli.sql,Mayo2015/Bellisa_Excepciones/SQLQueryCred_Desem_Excep_SraEli.sql,9252,cred
+2015,Mayo,Créditos,SQLQueryCred_Desem_Excep_Belissa.sql,Mayo2015/Bellisa_Excepciones/SQLQueryCred_Desem_Excep_Belissa.sql,10900,cred
+2015,Mayo,Créditos,SQLQueryCred_Desem_Excep_original.sql,Mayo2015/Bellisa_Excepciones/SQLQueryCred_Desem_Excep_original.sql,9123,cred
+2015,Mayo,Reportes SBS,SQLQuerycali.sql,Mayo2015/LemurSBS/SQLQuerycali.sql,12549,sbs
+2015,Mayo,Reportes SBS,SQLQuery15.sql,Mayo2015/LemurSBS/15Clientes/SQLQuery15.sql,15118,"sbs, cli"
+2015,Mayo,Clientes,SQLQueryGestCliDeserGPP.sql,Mayo2015/Gest_Desertores_GPP/SQLQueryGestCliDeserGPP.sql,4694,cli
+2015,Mayo,Clientes,SQLQueryClientes.sql,Mayo2015/ClientesExclusivos/SQLQueryClientes.sql,251,cli
+2015,Mayo,Clientes,SQLQueryCliExcValidando.sql,Mayo2015/ClientesExclusivos/SQLQueryCliExcValidando.sql,433,cli
+2015,Mayo,Clientes,SQLQueryClientesExclusivosNoExclusivos.sql,Mayo2015/ClientesExclusivos/SQLQueryClientesExclusivosNoExclusivos.sql,122657,cli
+2015,Mayo,Clientes,SQLQueryResultado.sql,Mayo2015/ClientesExclusivos/SQLQueryResultado.sql,7396,cli
+2015,Mayo,Análisis Geográfico,SQLQueryZonaAgencia.sql,Mayo2015/ZonasAgencias/SQLQueryZonaAgencia.sql,1444,zona
+2015,Mayo,Reportes SBS,SQLQueryReqSBS.sql,Mayo2015/ReqSBS_WS_JZ/SQLQueryReqSBS.sql,4631,sbs
+2015,Mayo,Reportes SBS,SQLQueryReqSBSPromotor.sql,Mayo2015/ReqSBS_WS_JZ/SQLQueryReqSBSPromotor.sql,4392,"sbs, promotor"
+2015,Mayo,Otros,SQLQueryMkt.sql,Mayo2015/JoseZuritaMarketing/SQLQueryMkt.sql,5135,
+2015,Mayo,Expedientes,SQLQueryExpedientes.sql,Mayo2015/ExpedientesJuanNaupari/SQLQueryExpedientes.sql,1810,exp
+2015,Mayo,Créditos,SQLQueryCredRoya.sql,Mayo2015/JuliaLaRoya/SQLQueryCredRoya.sql,7027,cred
+2015,Mayo,Garantías,SQLQuerySP.sql,Mayo2015/JZuritaPrendarios/SQLQuerySP.sql,8194,prenda
+2015,Mayo,Garantías,SQLQueryJZuritaPrendarios.sql,Mayo2015/JZuritaPrendarios/SQLQueryJZuritaPrendarios.sql,5762,prenda
+2015,Mayo,Créditos,SQLQueryHipotecariosDola.sql,Mayo2015/WS_Hipotecarios/SQLQueryHipotecariosDola.sql,4744,hipot
+2015,Mayo,Otros,SQLQueryConvenios.sql,Mayo2015/ListaConvenioJoseZurita/SQLQueryConvenios.sql,8323,
+2015,Mayo,Morosidad,SQLQueryTramosV01.sql,Mayo2015/TramosVencida/SQLQueryTramosV01.sql,3698,tramo
+2015,Mayo,Morosidad,SQLQueryTramos.sql,Mayo2015/TramosVencida/SQLQueryTramos.sql,5914,tramo
+2015,Mayo,Créditos,SQLQueryClientesAhorCred.sql,Mayo2015/ClienteCarlitosPuris/SQLQueryClientesAhorCred.sql,7127,"cred, cli"
+2015,Mayo,Clientes,SQLQueryDividirRiesgos.sql,Mayo2015/ClienteCarlitosPuris/Dividir/SQLQueryDividirRiesgos.sql,770,"cli, riesgo"
+2015,Mayo,Clientes,SQLQueryDividirHist.sql,Mayo2015/ClienteCarlitosPuris/Dividir/SQLQueryDividirHist.sql,209,cli
+2015,Mayo,Clientes,SQLQueryGestCliDeserSGN.sql,Mayo2015/Gest_Desertores_SGN/SQLQueryGestCliDeserSGN.sql,4572,cli
+2015,Mayo,Clientes,SQLQueryResulDeserSGN.sql,Mayo2015/Gest_Desertores_SGN/ResulDesert/SQLQueryResulDeserSGN.sql,9133,desertor
+2015,Mayo,Clientes,SQLQuery2doEnvio.sql,Mayo2015/Gest_Desertores_SGN/2doEnvioJunio/SQLQuery2doEnvio.sql,1358,desertor
+2015,Mayo,Clientes,SQLQueryLimpioxAgencias.sql,Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryLimpioxAgencias.sql,5677,"cli, rcc, agencia"
+2015,Mayo,Clientes,SQLQueryCaliRCCClientesDesertores_CentroOriente.sql,Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryCaliRCCClientesDesertores_CentroOriente.sql,3417,"cli, rcc"
+2015,Mayo,Clientes,SQLQueryLimpio.sql,Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryLimpio.sql,8678,"cli, rcc"
+2015,Mayo,Clientes,SQLQueryCaliRCCClientesDesertores_SelvaCentral.sql,Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryCaliRCCClientesDesertores_SelvaCentral.sql,3417,"cli, rcc, selva"
+2015,Mayo,Clientes,SQLQueryCaliRCCClientesDesertores_LimaSur.sql,Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryCaliRCCClientesDesertores_LimaSur.sql,6538,"cli, rcc, sur"
+2015,Mayo,Clientes,SQLQueryCaliRCCClientesDesertores_LimaNorte.sql,Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryCaliRCCClientesDesertores_LimaNorte.sql,3353,"cli, rcc, norte"
+2015,Mayo,Clientes,SQLQueryCaliRCCClientesDesertores_Centro.sql,Mayo2015/Gest_Desertores_SGN/CorrecionRCC_ClientesDesertores/SQLQueryCaliRCCClientesDesertores_Centro.sql,3369,"cli, rcc"
+2015,Mayo,Garantías,SQLQueryGarantWS.sql,Mayo2015/GarantiasWS/SQLQueryGarantWS.sql,5594,gar
+2015,Mayo,Otros,SQLQueryTEM_JoseZurita.sql,Mayo2015/TEM_JoseZurita/SQLQueryTEM_JoseZurita.sql,1083,
+2015,Mayo,Créditos,SQLQueryDetGarantia.sql,Mayo2015/HipotecariosWS/SQLQueryDetGarantia.sql,723,"hipot, gar"
+2015,Mayo,Créditos,SQLQueryGarantias.sql,Mayo2015/HipotecariosWS/SQLQueryGarantias.sql,3215,"hipot, gar"
+2015,Mayo,Créditos,SQLQueryGarHistCred.sql,Mayo2015/HipotecariosWS/SQLQueryGarHistCred.sql,4770,"cred, gar"
+2015,Mayo,Créditos,SQLQueryHipotecarioWS.sql,Mayo2015/HipotecariosWS/SQLQueryHipotecarioWS.sql,8197,hipot
+2015,Mayo,Expedientes,SQLQueryExperian.sql,Mayo2015/BdPilotoEli/SQLQueryExperian.sql,3885,exp
+2015,Mayo,Otros,SQLQueryRelacionAsesores.sql,Mayo2015/OscarYance/SQLQueryRelacionAsesores.sql,1361,
+2015,Mayo,Garantías,SQL_GARANTIAS.sql,Mayo2015/FernandoTI/Garantias/SQL_GARANTIAS.sql,5857,gar
+2015,Mayo,Otros,SQLQueryAprobaciones.sql,Mayo2015/JoseZurita/SQLQueryAprobaciones.sql,4269,
+2015,Mayo,Otros,SQLQueryPagosAnticipados.sql,Mayo2015/JoseZurita/SQLQueryPagosAnticipados.sql,1220,
+2015,Mayo,Otros,SQLQueryAmpliaDetalle.sql,Mayo2015/Ampliaciones/SQLQueryAmpliaDetalle.sql,10720,
+2015,Mayo,Otros,SQLQueryAmpliaciones.sql,Mayo2015/Ampliaciones/SQLQueryAmpliaciones.sql,31598,
+2015,Mayo,Otros,SQLQueryAmpliaV00.sql,Mayo2015/Ampliaciones/SQLQueryAmpliaV00.sql,14388,
+2015,Mayo,Otros,SQLQuerySPAmpliaV01.sql,Mayo2015/Ampliaciones/SQLQuerySPAmpliaV01.sql,10289,
+2015,Mayo,Otros,SQLQueryFinalAmpliaciones.sql,Mayo2015/Ampliaciones/SQLQueryFinalAmpliaciones.sql,8875,
+2015,Mayo,Garantías,SQLQuerySPGarantias.sql,Mayo2015/PlazoFijoZurita/SQLQuerySPGarantias.sql,14681,gar
+2015,Mayo,Garantías,SQLQueryGarPlazoFijo.sql,Mayo2015/PlazoFijoZurita/SQLQueryGarPlazoFijo.sql,2868,gar
+2015,Mayo,Garantías,SQLQueryGarPFDetalles.sql,Mayo2015/PlazoFijoZurita/SQLQueryGarPFDetalles.sql,2337,gar
+2015,Mayo,Garantías,SQLQueryGarPF.sql,Mayo2015/PlazoFijoZurita/SQLQueryGarPF.sql,14874,gar
+2015,Mayo,Otros,SQLQueryCRI.sql,Mayo2015/CRICMAC_HYO/SQLQueryCRI.sql,854,
+2015,Mayo,Otros,SQLQueryEmpJulia.sql,Mayo2015/SolEmpresaJulia/SQLQueryEmpJulia.sql,1048,
+2015,Mayo,Otros,SQLQueryBeliNoMinorista.sql,Mayo2015/BelissaNoMinorista/SQLQueryBeliNoMinorista.sql,2715,
+2015,Mayo,Otros,SQLQueryResultado.sql,Mayo2015/Belissa_3_Indicadores/RESULTADO/SQLQueryResultado.sql,1415,
+2015,Mayo,Clientes,SQLQueryNewClientes.sql,Mayo2015/Reporte Clientes Nuevos/SQLQueryNewClientes.sql,5085,cli
+2015,Julio,Expedientes,SQLQueryExpNancy.sql,Julio2015/NancyExpedientes/SQLQueryExpNancy.sql,2207,exp
+2015,Julio,Créditos,SQLQueryCPCredCanc.sql,Julio2015/CarlitosPurisCredCanc/SQLQueryCPCredCanc.sql,7963,cred
+2015,Julio,Otros,QueryCri.sql,Julio2015/CRICMACHYO_DIARIO/QueryCri.sql,1179,
+2015,Julio,Cartera,SQLQueryCFBelaunde.sql,Julio2015/CartaFianzaBelaunde/SQLQueryCFBelaunde.sql,3397,cart
+2015,Julio,Cartera,QueryCFAUI.sql,Julio2015/CartasFianzasUAI/QueryCFAUI.sql,7632,cart
+2015,Julio,Cartera,QueryGarantiaCF.sql,Julio2015/CartasFianzasUAI/GarantiasCartaFianza/QueryGarantiaCF.sql,2261,"cart, gar"
+2015,Julio,Créditos,QueryCredHipViv.sql,Julio2015/CredHipoteMiViv/QueryCredHipViv.sql,2482,cred
+2015,Julio,Créditos,CredCampQuery.sql,Julio2015/CreditosCampanias/CredCampQuery.sql,2711,cred
+2015,Julio,Cartera,SQLQueryCSJL.sql,Julio2015/CarteraSanJuanLurigancho/SQLQueryCSJL.sql,2405,cart
+2015,Julio,Otros,QueryAccRepre.sql,Julio2015/AccioRepre/QueryAccRepre.sql,1406,
+2015,Julio,Cartera,SQLQueryCartAgCaniete.sql,Julio2015/CarteraAgCaniete/SQLQueryCartAgCaniete.sql,3793,cart
+2015,Julio,Cartera,QueryGarantiaCFRango.sql,Julio2015/CartasFianzasRango/QueryGarantiaCFRango.sql,10939,"cart, gar"
+2015,Julio,Créditos,QueryCredUnicuotas.sql,Julio2015/CreditosUnicuota/QueryCredUnicuotas.sql,3664,cred
+2015,Julio,Cartera,QueryCarteraCesados.sql,Julio2015/CarteraCesadosSusan/QueryCarteraCesados.sql,5368,cart
+2015,Julio,Otros,SQLQueryPuntajeV02.sql,Julio2015/NotasAsesores/SQLQueryPuntajeV02.sql,8297,
+2015,Julio,Créditos,QueryCredEmpr.sql,Julio2015/CredEmpresarialesWS/QueryCredEmpr.sql,2545,cred
+2015,Julio,Clientes,SQLQueryNewCliDesertores.sql,Julio2015/NewClientesDesertores/SQLQueryNewCliDesertores.sql,20839,cli
+2015,Julio,Clientes,SQLQueryCaliRCC.sql,Julio2015/NewClientesDesertores/SQLQueryCaliRCC.sql,3760,"cli, rcc"
+2015,Julio,Clientes,SQLQueryNewCliDesLocal.sql,Julio2015/NewClientesDesertores/SQLQueryNewCliDesLocal.sql,4740,cli
+2015,Junio,Cartera,SQLQueryCartJunio2015.sql,Julio2015/CartJunio2015SusanAmbrosio/SQLQueryCartJunio2015.sql,6368,cart
+2015,Julio,Créditos,QueryCredHipDosAnios.sql,Julio2015/CredHipo2Anios/QueryCredHipDosAnios.sql,5174,cred
+2015,Julio,Otros,SQLQueryFinalAmp2Ent.sql,Julio2015/Ampliaciones2Entidades/SQLQueryFinalAmp2Ent.sql,13111,
+2015,Julio,Créditos,QueryCredHipoWS.sql,Julio2015/CredHipotecariosWS/QueryCredHipoWS.sql,14538,cred
+2015,Julio,Cartera,SQLQueryCOCarVigJud.sql,Julio2015/CentroOrienteCartVigJud/SQLQueryCOCarVigJud.sql,5324,cart
+2015,Julio,Cartera,SQLQueryCOCarTVigJud.sql,Julio2015/CentroOrienteCartVigJud/SQLQueryCOCarTVigJud.sql,3040,cart
+2015,Julio,Cartera,SQLQueryCarteraAsesoresJulita.sql,Julio2015/CarteraAsesoresJulita/SQLQueryCarteraAsesoresJulita.sql,7476,cart
+2015,Junio,Créditos,QueryDesembEneJunio2015.sql,Julio2015/DesembolsosCPuris/QueryDesembEneJunio2015.sql,7611,desemb
+2015,Julio,Créditos,QueryCredDesemExcepSusan.sql,Julio2015/SusanExcepciones/QueryCredDesemExcepSusan.sql,9881,cred
+2015,Julio,Otros,QueryDetalleExcep.sql,Julio2015/SusanExcepciones/QueryDetalleExcep.sql,5134,
+2015,Julio,Créditos,SQLQueryCred_Desem_Excep_SraEli.sql,Julio2015/SusanExcepciones/SQLQueryCred_Desem_Excep_SraEli.sql,9252,cred
+2015,Julio,Créditos,SQLQueryCred_Desem_Excep_Belissa.sql,Julio2015/SusanExcepciones/SQLQueryCred_Desem_Excep_Belissa.sql,11635,cred
+2015,Julio,Créditos,SQLQueryCred_Desem_Excep_original.sql,Julio2015/SusanExcepciones/SQLQueryCred_Desem_Excep_original.sql,9123,cred
+2015,Septiembre,Expedientes,QueryExpAgHuanta.sql,Septiembre2015/ExpedHuantaWCapcha/QueryExpAgHuanta.sql,3139,exp
+2015,Septiembre,Créditos,QueryEvoAgri.sql,Septiembre2015/EvolucionCredAgricolas/QueryEvoAgri.sql,297,cred
+2015,Septiembre,Expedientes,QueryExpend.sql,Septiembre2015/ExpedContabilidad/QueryExpend.sql,1349,exp
+2015,Septiembre,Créditos,QueryCredVinCol.sql,Septiembre2015/CredVinColab/QueryCredVinCol.sql,4846,cred
+2015,Septiembre,Cartera,QueryCartHuachipa.sql,Septiembre2015/CarteraHuachipa/QueryCartHuachipa.sql,5789,cart
+2015,Septiembre,Otros,QueryAsesorCesado.sql,Septiembre2015/AsesoresCesados/QueryAsesorCesado.sql,4793,
+2015,Septiembre,Otros,QueryPuntajeNotaAsesores.sql,Septiembre2015/NotasPuntajesAsesores/EDipasJRegional/QueryPuntajeNotaAsesores.sql,8306,
+2015,Septiembre,Análisis Geográfico,SQLQueryPuntaje.sql,Septiembre2015/NotasPuntajesAsesores/LimaNortePuntajeAnalistas/SQLQueryPuntaje.sql,2790,norte
+2015,Septiembre,Otros,LlenadoQueryCP.sql,Septiembre2015/LlenadoCarlosPuris/LlenadoQueryCP.sql,4624,
+2015,Septiembre,Clientes,QueryCI.sql,Septiembre2015/ClientesIdentificar/QueryCI.sql,4517,cli
+2015,Julio,Expedientes,QueryExpAgTarma.sql,Septiembre2015/ExpJuanJulioSet2015/QueryExpAgTarma.sql,2314,exp
+2015,Septiembre,Otros,QueryAgJoyas.sql,Septiembre2015/AgJoyas/QueryAgJoyas.sql,2373,
+2015,Septiembre,Otros,QueryRatioMora.sql,Septiembre2015/RatiosMora/QueryRatioMora.sql,8910,
+2015,Septiembre,Cartera,QueryAnexChosica.sql,Septiembre2015/CartAnexosChosica/QueryAnexChosica.sql,4005,"cart, anexo"
+2015,Septiembre,Otros,QueryAE.sql,Septiembre2015/LlenadoAuditoriaExterna/QueryAE.sql,8726,
+2015,Septiembre,Otros,QueryMirellitaCF.sql,Septiembre2015/CFMirellita/QueryMirellitaCF.sql,11258,
+2015,Septiembre,Morosidad,QueryTramosvencido.sql,Septiembre2015/TramosVencido/QueryTramosvencido.sql,3401,vencido
+2015,Septiembre,Cartera,QueryCredAprobCF.sql,Septiembre2015/RangoAprobCartaFianza/QueryCredAprobCF.sql,7720,"cart, cred"
+2015,Septiembre,Cartera,CredAprobCF_Testing.sql,Septiembre2015/RangoAprobCartaFianza/CredAprobCF_Testing.sql,4093,"cart, cred"
+2015,Septiembre,Cartera,CredAprobCFxMontos.sql,Septiembre2015/RangoAprobCartaFianza/xNivelesyMontos/CredAprobCFxMontos.sql,9029,"cart, cred"
+2015,Septiembre,Análisis Financiero,QueryEEFF.sql,Septiembre2015/EEFF/QueryEEFF.sql,11692,eeff
+2015,Septiembre,Otros,QueryPotNoMino.sql,Septiembre2015/PotNoMinoristas/QueryPotNoMino.sql,6072,
+2015,Septiembre,Cartera,QueryCartEquili.sql,Septiembre2015/CarlitosEquili/QueryCartEquili.sql,2222,cart
+2015,Septiembre,Créditos,QueryCPurisDesembolso.sql,Septiembre2015/CPurisDesembolso/QueryCPurisDesembolso.sql,13339,desemb
+2015,Septiembre,Cartera,QueryCFxRegiones.sql,Septiembre2015/CartafianzaxRegiones/QueryCFxRegiones.sql,11158,cart
+2015,Septiembre,Otros,QueryOsiAgJauja.sql,Septiembre2015/OSI/QueryOsiAgJauja.sql,17119,
+2015,Septiembre,Otros,QueryOsiConsolidadoDic2014.sql,Septiembre2015/OSI/OSIConsolidado/QueryOsiConsolidadoDic2014.sql,11606,
+2015,Septiembre,Otros,QueryOsiConsolidadoAgo2015.sql,Septiembre2015/OSI/OSIConsolidado/QueryOsiConsolidadoAgo2015.sql,10804,
+2015,Octubre,Créditos,QueryCredAsesor.sql,Octubre2015/CredAsesores/QueryCredAsesor.sql,5474,cred
+2015,Octubre,Morosidad,QueryTramosMorosidad.sql,Octubre2015/Morosidad/QueryTramosMorosidad.sql,5625,moro
+2015,Octubre,Créditos,QueryCPurisDesembolso_Sep2015.sql,Octubre2015/CPurisDesembolso_Sep2015/QueryCPurisDesembolso_Sep2015.sql,13350,desemb
+2015,Octubre,Cartera,CartaFianza_CPuris.sql,Octubre2015/CarlosPuris_CartaFianza/CartaFianza_CPuris.sql,14274,cart
+2015,Octubre,Análisis Geográfico,QueryDistrito.sql,Octubre2015/OscarYanceJulia/QueryDistrito.sql,5641,distrito
+2015,Octubre,Créditos,QueryCredEmprCofide.sql,Octubre2015/CredCofide_BellisaJulia/QueryCredEmprCofide.sql,84253,cred
+2015,Octubre,Créditos,QueryProvisiones.sql,Octubre2015/CredCofide_BellisaJulia/QueryProvisiones.sql,60286,cred
+2015,Octubre,Créditos,QueryBellisaCofide.sql,Octubre2015/CredCofide_BellisaJulia/QueryBellisaCofide.sql,1171,cred
+2015,Octubre,Créditos,QueryBDCredNoMino.sql,Octubre2015/BDCredNoMinoJQ/QueryBDCredNoMino.sql,6305,cred
+2015,Octubre,Créditos,QueryCredCTS.sql,Octubre2015/CredCTS/QueryCredCTS.sql,4227,cred
+2015,Octubre,Promotor Inmobiliario,QueryFeriaInmobiliaria.sql,Octubre2015/FeriaInmobiliaria/QueryFeriaInmobiliaria.sql,29398,inmobi
+2015,Octubre,Promotor Inmobiliario,QueryPromotor.sql,Octubre2015/PromotorInmo/QueryPromotor.sql,3023,promotor
+2015,Octubre,Otros,QueryLagoVerde.sql,Octubre2015/WsLagoVerde/QueryLagoVerde.sql,6213,
+2015,Octubre,Créditos,cliNuevos_Creditos.sql,Octubre2015/Clientes/cliNuevos_Creditos.sql,3573,"cred, cli"
+2015,Octubre,Créditos,QueryControlDesemb.sql,Octubre2015/ControlDesembSusanAmbrosio/QueryControlDesemb.sql,6468,desemb
+2015,Octubre,Expedientes,QueryExpNancy.sql,Octubre2015/ExpNancy/QueryExpNancy.sql,1067,exp
+2015,Octubre,Otros,QueryAmpliaJQ.sql,Octubre2015/Ampliaciones/QueryAmpliaJQ.sql,17838,
+2015,Octubre,Otros,SQLQueryFinalAmpliaciones_Original.sql,Octubre2015/Ampliaciones/SQLQueryFinalAmpliaciones_Original.sql,13111,
+2015,Octubre,Créditos,QueryCrediCasaTipIng.sql,Octubre2015/CrediCasa/QueryCrediCasaTipIng.sql,6631,"cred, credicasa"
